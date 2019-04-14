@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Copyright 2016 Roku Corp.  All Rights Reserved. -->
+
+<component name="PodcastLabelList" extends="LabelList" xsi:noNamespaceSchemaLocation="https://devtools.web.roku.com/schema/RokuSceneGraph.xsd">
+
+<!-- This is a wrapper class to override specific button inputs in LabelList -->
+
+<script type="text/brightscript" >
+<![CDATA[
+    function onKeyEvent(key as String, press as Boolean) as Boolean 
+			handled = false
+			if press
+				if key="fastforward"
+					if m.global.PodcastFF <= 10
+						m.global.PodcastFF += 1
+					else
+						m.global.PodcastFF = 0
+					end if
+					handled = true
+				else if key="rewind"
+					if m.global.PodcastRewind <= 10
+						m.global.PodcastRewind += 1
+					else
+						m.global.PodcastRewind = 0
+					end if
+					handled = true
+				end if
+			end if
+			return handled
+    end function
+]]>
+</script>
+
+</component>

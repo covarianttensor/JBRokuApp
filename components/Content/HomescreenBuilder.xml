@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2016 Roku Corp.  All Rights Reserved. -->
+
+<component name="HomescreenBuilder" extends="Task" >
+  <interface>
+    <!-- Contains the response content -->
+    <field id="content" type="node"/>
+  </interface>
+
+  <script type="text/brightscript" uri="pkg:/components/Content/HomescreenBuilder.brs"/>
+</component>

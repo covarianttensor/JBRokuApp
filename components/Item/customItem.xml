@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2016 Roku Corp.  All Rights Reserved. -->
+
+<component name="customItem" extends="Group">
+
+  <interface>
+    <field id="width"       type="float"  onChange="updateLayout"/>
+    <field id="height"      type="float"  onChange="updateLayout"/>
+    <field id="itemContent" type="node"   onChange="itemContentChanged" />
+  </interface>
+
+  <script type="text/brightscript" uri="pkg:/components/Item/customItem.brs" />
+
+  <children>
+    <LayoutGroup layoutDirection="vert" vertAlignment="top" itemSpacings="20" translation="[0,0]" >
+      <Poster
+        id="poster" >
+        <Rectangle
+          id = "ShortTitleOverlayBackground"
+          width = "0"
+          height = "52"
+          color = "0x000000FF"
+          opacity = "0"
+          translation = "[0,0]" >
+          
+            <Label
+              id = "ShortTitleOverlay"
+              color = "0xFFFFFFFF"
+              width = "0"
+              height = "52"
+              wrap = "true"
+              translation = "[15,0]"
+              >
+              <Font
+                role = "font"
+                uri = "pkg:/components/fonts/avenirltstd-light-webfont.ttf"
+                id = "avenir-light"
+                size = "34"
+              />
+            </Label>
+          </Rectangle>
+      </Poster>
+      <Label id="itemBottomLabel" horizAlign="center" translation="[0,0]" font="font:MediumSystemFont" opacity="0" width="300" height="65" />
+    </LayoutGroup>
+  </children>
+
+</component>

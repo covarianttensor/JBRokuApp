@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--********** Copyright 2016 Roku Corp.  All Rights Reserved. **********-->
+
+<!-- node that renders details screen. handles start of video playback -->
+<component name="VideoStreamDetailsScreen" extends="Group" initialFocus="Buttons">
+  <children>
+    <!-- Background poster -->
+    <Poster
+      id="Background"
+      width="1920"
+      height="1080" />
+
+    <Animation
+      id="fadeinAnimation"
+      repeat="false"
+      duration="0.3">
+      <FloatFieldInterpolator
+        id="backgroundInterpolator"
+        key="[0.0, 1.0]"
+        keyValue="[0.0, 1.0]"
+        fieldToInterp="Background.opacity"/>
+    </Animation>
+
+    <Animation
+      id="fadeoutAnimation"
+      repeat="false"
+      duration="0.3">
+      <FloatFieldInterpolator
+        id="backgroundInterpolator"
+        key="[0.0, 1.0]"
+        keyValue="[1.0, 0.0]"
+        fieldToInterp="Background.opacity"/>
+    </Animation>
+
+    <!-- Background fade -->
+    <Rectangle
+      translation="[0,0]"
+      width="1920"
+      height="1080"
+      color="0x000000"
+      opacity="0.8" />
+
+    <Rectangle
+      id = "EpisodeInfoBackground"
+      width = "550"
+      height = "950"
+      color = "0x000000FF"
+      opacity = "0.45"
+      translation = "[1320,130]" />
+
+    <Rectangle
+      width = "1920"
+      height = "130"
+      color = "0x000000FF"
+      opacity = "0.45"
+      translation = "[0,0]" />
+
+    <Group
+      id = "EpisodeInfoGroup"
+      width = "550"
+      height = "920"
+      translation = "[1320,155]">
+
+      <!-- Set Text in brs to Summary Title-->
+      <Label
+        id = "EpisodeTitle"
+        color = "0xFFFFFFFF"
+        width = "520"
+        height = "104"
+        wrap = "true"
+        horizAlign = "center"
+        vertAlign = "center"
+        translation = "[15,50]"
+        >
+        <Font
+          role = "font"
+          uri = "pkg:/components/fonts/avenirltstd-light-webfont.ttf"
+          id = "avenir-light"
+          size = "34"
+        />
+      </Label>
+
+      <!-- Item poster -->
+      <Poster
+        id="Poster"
+        translation="[125, 200]"
+        width="300"
+        height="200" />
+
+      <!-- Control buttons (Button List) -->
+      <LabelList
+        id="Buttons"
+        color="0xFFFFFFFF"
+        focusedColor="0x333333FF"
+        numRows="7"
+        vertFocusAnimationStyle="floatingFocus"
+        itemSpacing="[0,20]"
+        itemSize="[450, 35]"
+        translation="[50,440]" />
+
+      <!-- Set Text in brs to Summary Title-->
+      <Label
+        id = "EpisodeSummary"
+        color = "0xFFFFFFFF"
+        width = "520"
+        height = "360"
+        wrap = "true"
+        horizAlign="center"
+        translation = "[15,550]"
+        >
+        <Font
+          role = "font"
+          uri = "pkg:/components/fonts/avenirltstd-light-webfont.ttf"
+          id = "avenir-light"
+          size = "26"
+        />
+      </Label>
+    </Group>
+
+    <!-- Overhang Node (has to be rendered after others) -->
+    <Overhang
+      id="Overhang"
+      logoUri="pkg://images/assets/jblogo.png"
+      showClock="true"
+      title="Video Details" />
+
+    <!-- Playback node -->
+    <Video
+      id="VideoPlayer"
+      visible="false"
+      translation="[0, 0]"
+      width="1920"
+      height="1080" />
+
+  </children>
+
+    <interface>
+      <!-- Button press handler -->
+      <field id="itemSelected" type="integer" alwaysnotify="true" alias="Buttons.itemSelected" onChange="onItemSelected" />
+      <!-- Playback flag -->
+      <field id="videoPlayerVisible" type="bool" alwaysnotify="true" alias="VideoPlayer.visible"  onChange="onVideoVisibleChange" />
+      <!-- Content fields -->
+      <field id="content" type="node" alwaysnotify="true" onChange="OnContentChange" />
+    </interface>
+
+    <!-- main handler -->
+    <script type="text/brightscript" uri="pkg:/components/VideoStreamDetailsScreen/VideoStreamDetailsScreen.brs" />
+</component>

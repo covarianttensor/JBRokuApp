@@ -1,0 +1,1331 @@
+1
+00: 00: 17,000 -> 00: 00: 19,000
+Ya sabes, he hablado de algunos de estos proyectos antes,
+
+2
+00: 00: 19,000 -> 00: 00: 23,000
+sobre el genoma humano y lo que eso podría significar,
+
+3
+00: 00: 23,000 -> 00: 00: 26,000
+Y descubriendo nuevos conjuntos de genes.
+
+4
+00: 00: 26,000 -> 00: 00: 29,000
+Estamos empezando en un nuevo punto:
+
+5
+00: 00: 29,000 -> 00: 00: 33,000
+Hemos estado digitalizando biología,
+
+6
+00: 00: 33,000 -> 00: 00: 36,000
+Y ahora estamos tratando de pasar de ese código digital
+
+7
+00: 00: 36,000 -> 00: 00: 38,000
+en una nueva fase de la biología,
+
+8
+00: 00: 38,000 -> 00: 00: 41,000
+Con diseñar y sintetizar la vida.
+
+9
+00: 00: 41,000 -> 00: 00: 44,000
+Entonces, siempre hemos estado tratando de hacer grandes preguntas.
+
+10
+00: 00: 46,000 -> 00: 00: 48,000
+"¿Qué es la vida?" Es algo que creo que muchos biólogos
+
+11
+00: 00: 48,000 -> 00: 00: 50,000
+he estado tratando de entender
+
+12
+00: 00: 50,000 -> 00: 00: 52,000
+en varios niveles
+
+13
+00: 00: 52,000 -> 00: 00: 55,000
+Hemos intentado varios enfoques,
+
+14
+00: 00: 55,000 -> 00: 00: 58,000
+reduciéndolo a componentes mínimos.
+
+15
+00: 00: 59,000 -> 00: 00: 61,000
+Llevamos casi 20 años digitalizándolo.
+
+dieciséis
+00: 00: 61,000 -> 00: 00: 63,000
+Cuando secuenciamos el genoma humano,
+
+17
+00: 00: 63,000 -> 00: 00: 66,000
+Iba del mundo analógico de la biología.
+
+18
+00: 00: 66,000 -> 00: 00: 70,000
+En el mundo digital de la computadora.
+
+19
+00: 00: 70,000 -> 00: 00: 74,000
+Ahora estamos tratando de preguntar, podemos regenerar la vida,
+
+20
+00: 00: 74,000 -> 00: 01: 16,000
+o podemos crear nueva vida,
+
+21
+00: 01: 16,000 -> 00: 01: 19,000
+¿Fuera de este universo digital?
+
+22
+00: 01: 19,000 -> 00: 01: 22,000
+Este es el mapa de un pequeño organismo,
+
+23
+00: 01: 22,000 -> 00: 01: 24,000
+Mycoplasma genitalium,
+
+24
+00: 01: 24,000 -> 00: 01: 27,000
+Que tiene el genoma más pequeño para una especie.
+
+25
+00: 01: 27,000 -> 00: 01: 30,000
+Eso puede auto replicarse en el laboratorio.
+
+26
+00: 01: 30,000 -> 00: 01: 32,000
+Y hemos estado tratando de ver si
+
+27
+00: 01: 32,000 -> 00: 01: 35,000
+Podemos llegar a un genoma aún más pequeño.
+
+28
+00: 01: 36,000 -> 00: 01: 38,000
+Somos capaces de derribar el orden de cien genes.
+
+29
+00: 01: 38,000 -> 00: 01: 41,000
+De los 500 que están aquí.
+
+30
+00: 01: 41,000 -> 00: 01: 43,000
+Pero cuando nos fijamos en su mapa metabólico,
+
+31
+00: 01: 43,000 -> 00: 01: 45,000
+es relativamente simple
+
+32
+00: 01: 45,000 -> 00: 01: 47,000
+Comparado con el nuestro.
+
+33
+00: 01: 47,000 -> 00: 01: 49,000
+Confía en mí, esto es simple.
+
+34
+00: 01: 49,000 -> 00: 01: 51,000
+Pero cuando miramos todos los genes.
+
+35
+00: 01: 51,000 -> 00: 01: 54,000
+que podemos derribar uno a la vez,
+
+36
+00: 01: 54,000 -> 00: 01: 56,000
+Es muy poco probable que esto produzca
+
+37
+00: 01: 56,000 -> 00: 01: 58,000
+una célula viva.
+
+38
+00: 01: 59,000 -> 00: 02: 01,000
+Así, decidimos el único camino a seguir.
+
+39
+00: 02: 01,000 -> 00: 02: 04,000
+Era sintetizar realmente este cromosoma
+
+40
+00: 02: 04,000 -> 00: 02: 07,000
+por lo que podríamos variar los componentes
+
+41
+00: 02: 07,000 -> 00: 02: 11,000
+Para hacer algunas de estas preguntas más fundamentales.
+
+42
+00: 02: 11,000 -> 00: 02: 13,000
+Y así empezamos por el camino de,
+
+43
+00: 02: 13,000 -> 00: 02: 16,000
+"¿Podemos sintetizar un cromosoma?"
+
+44
+00: 02: 17,000 -> 00: 02: 19,000
+¿Puede permitir la química hacer
+
+45
+00: 02: 19,000 -> 00: 02: 21,000
+ estas moléculas realmente grandes
+
+46
+00: 02: 21,000 -> 00: 02: 23,000
+donde nunca hemos estado antes?
+
+47
+00: 02: 23,000 -> 00: 02: 26,000
+Y, si lo hacemos, ¿podemos arrancar un cromosoma?
+
+48
+00: 02: 26,000 -> 00: 02: 29,000
+Un cromosoma, por cierto, es solo una pieza de material químico inerte.
+
+49
+00: 02: 30,000 -> 00: 02: 23,000
+Así, nuestro ritmo de digitalización de la vida ha ido en aumento.
+
+50
+00: 02: 33,000 -> 00: 02: 36,000
+A un ritmo exponencial.
+
+51
+00: 02: 36,000 -> 00: 02: 39,000
+Nuestra capacidad para escribir el código genético.
+
+52
+00: 02: 39,000 -> 00: 02: 41,000
+se ha estado moviendo muy lentamente,
+
+53
+00: 02: 41,000 -> 00: 02: 44,000
+Pero ha ido aumentando.
+
+54
+00: 02: 44,000 -> 00: 02: 48,000
+Y nuestro último punto lo pondría ahora en una curva exponencial.
+
+55
+00: 02: 49,000 -> 00: 02: 51,000
+Empezamos esto hace más de 15 años.
+
+56
+00: 02: 51,000 -> 00: 02: 54,000
+ Tomó varias etapas, de hecho,
+
+57
+00: 02: 54,000 -> 00: 02: 59,000
+comenzando con una revisión bioética antes de que hiciéramos los primeros experimentos.
+
+58
+00: 02: 58,000 -> 00: 03: 00,000
+Pero resulta que sintetizando ADN.
+
+59
+00: 03: 00,000 -> 00: 03: 02,000
+es muy difícil.
+
+60
+00: 03: 02,000 -> 00: 03: 05,000
+Hay decenas de miles de máquinas en todo el mundo.
+
+61
+00: 03: 05,000 -> 00: 03: 07,000
+que hacen pequeños trozos de ADN,
+
+62
+00: 03: 07,000 -> 00: 03: 10,000
+ 30 a 50 letras de longitud,
+
+63
+00: 03: 10,000 -> 00: 03: 13,000
+y es un proceso degenerado, por lo que cuanto más larga sea la pieza,
+
+64
+00: 03: 13,000 -> 00: 03: 15,000
+Cuantos más errores hay.
+
+sesenta y cinco
+00: 03: 15,000 -> 00: 03: 17,000
+Así que tuvimos que crear un nuevo método.
+
+66
+00: 03: 17,000 -> 00: 03: 20,000
+Por poner estas pequeñas piezas juntas y corregir todos los errores.
+
+67
+00: 03: 21,000 -> 00: 03: 24,000
+Y este fue nuestro primer intento, comenzando con la información digital.
+
+68
+00: 03: 24,000 -> 00: 03: 26,000
+Del genoma de Phi X 174.
+
+69
+00: 03: 26,000 -> 00: 03: 29,000
+Es un pequeño virus que mata las bacterias.
+
+70
+00: 03: 30,000 -> 00: 03: 33,000
+Diseñamos las piezas, pasamos por nuestra corrección de errores,
+
+71
+00: 03: 33,000 -> 00: 03: 35,000
+y tenia una molecula de ADN
+
+72
+00: 03: 35,000 -> 00: 03: 38,000
+de unas 5.000 letras.
+
+73
+00: 03: 38,000 -> 00: 03: 42,000
+La fase emocionante llegó cuando tomamos esta pieza de producto químico inerte.
+
+74
+00: 03: 42,000 -> 00: 03: 44,000
+y ponerlo en la bacteria,
+
+75
+00: 03: 44,000 -> 00: 03: 48,000
+y la bacteria comenzó a leer este código genético,
+
+76
+00: 03: 48,000 -> 00: 03: 50,000
+ Hizo las partículas virales.
+
+77
+00: 03: 50,000 -> 00: 03: 52,000
+Las partículas virales fueron liberadas de las células,
+
+78
+00: 03: 52,000 -> 00: 03: 55,000
+Luego volvió y mató a la E. coli.
+
+79
+00: 03: 55,000 -> 00: 03: 58,000
+Estuve hablando con la industria petrolera recientemente,
+
+80
+00: 03: 58,000 -> 00: 04: 01,000
+Y les dije que entendían claramente ese modelo.
+
+81
+00: 04: 01,000 -> 00: 04: 04,000
+(Risa)
+
+82
+00: 04: 04,000 -> 00: 04: 07,000
+Ellos se rieron más que ustedes.
+
+83
+00: 04: 08,000 -> 00: 04: 10,000
+Y entonces pensamos que esto es una situación.
+
+84
+00: 04: 10,000 -> 00: 04: 13,000
+donde el software puede construir su propio hardware
+
+85
+00: 04: 13,000 -> 00: 04: 15,000
+ En un sistema biológico.
+
+86
+00: 04: 15,000 -> 00: 04: 17,000
+Pero queríamos ir mucho más grande.
+
+87
+00: 04: 17,000 -> 00: 04: 20,000
+Queríamos construir todo el cromosoma bacteriano.
+
+88
+00: 04: 20,000 -> 00: 04: 24,000
+Son más de 580.000 letras de código genético.
+
+89
+00: 04: 24,000 -> 00: 04: 27,000
+Así que pensamos que los construiríamos en cassettes del tamaño de los virus,
+
+90
+00: 04: 27,000 -> 00: 04: 29,000
+por lo que en realidad podríamos variar los casetes
+
+91
+00: 04: 29,000 -> 00: 04: 31,000
+ comprender
+
+92
+00: 04: 31,000 -> 00: 04: 34,000
+cuáles son los componentes reales de una célula viva.
+
+93
+00: 04: 34,000 -> 00: 04: 36,000
+El diseño es crítico,
+
+94
+00: 04: 36,000 -> 00: 04: 39,000
+y si estás empezando con información digital en la computadora,
+
+95
+00: 04: 39,000 -> 00: 04: 43,000
+Esa información digital tiene que ser realmente precisa.
+
+96
+00: 04: 43,000 -> 00: 04: 46,000
+Cuando secuenciamos por primera vez este genoma en 1995,
+
+97
+00: 04: 46,000 -> 00: 04: 50,000
+El estándar de precisión fue un error por cada 10.000 pares de bases.
+
+98
+00: 04: 50,000 -> 00: 04: 52,000
+En realidad encontramos, al volver a secuenciarlo,
+
+99
+00: 04: 52,000 -> 00: 04: 55,000
+30 errores. Si hubiéramos usado esa secuencia original,
+
+100
+00: 04: 55,000 -> 00: 04: 58,000
+nunca hubiera podido ser arrancado.
+
+101
+00: 04: 58,000 -> 00: 05: 00,000
+Parte del diseño es diseñar piezas.
+
+102
+00: 05: 00,000 -> 00: 05: 03,000
+que son 50 letras de largo
+
+103
+00: 05: 03,000 -> 00: 05: 06,000
+que deben superponerse con todas las otras piezas de 50 letras.
+
+104
+00: 05: 06,000 -> 00: 05: 08,000
+para construir sub-unidades más pequeñas
+
+105
+00: 05: 08,000 -> 00: 05: 11,000
+Tenemos que diseñar para que puedan ir juntos.
+
+106
+00: 05: 11,000 -> 00: 05: 14,000
+Diseñamos elementos únicos en esto.
+
+107
+00: 05: 14,000 -> 00: 05: 16,000
+Es posible que hayas leído que ponemos marcas de agua en.
+
+108
+00: 05: 16,000 -> 00: 05: 18,000
+Piensa en esto:
+
+109
+00: 05: 18,000 -> 00: 05: 21,000
+Tenemos un código genético de cuatro letras: A, C, G y T.
+
+110
+00: 05: 21,000 -> 00: 05: 24,000
+Trillizos de esa carta - esas cartas
+
+111
+00: 05: 24,000 -> 00: 05: 26,000
+código para aproximadamente 20 aminoácidos -
+
+112
+00: 05: 26,000 -> 00: 05: 29,000
+que hay una designación de una sola letra
+
+113
+00: 05: 29,000 -> 00: 05: 31,000
+Para cada uno de los aminoácidos.
+
+114
+00: 05: 31,000 -> 00: 05: 34,000
+Así que podemos usar el código genético para escribir palabras,
+
+115
+00: 05: 34,000 -> 00: 05: 36,000
+oraciones, pensamientos.
+
+116
+00: 05: 36,000 -> 00: 05: 39,000
+ Inicialmente, todo lo que hicimos fue autografiarlo.
+
+117
+00: 05: 39,000 -> 00: 05: 42,000
+Algunas personas se decepcionaron porque no había poesía.
+
+118
+00: 05: 42,000 -> 00: 05: 44,000
+Diseñamos estas piezas para que
+
+119
+00: 05: 44,000 -> 00: 05: 47,000
+Podemos simplemente masticar con las enzimas.
+
+120
+00: 05: 48,000 -> 00: 05: 51,000
+Hay enzimas que los reparan y los ponen juntos.
+
+121
+00: 05: 51,000 -> 00: 05: 53,000
+Y empezamos a hacer piezas,
+
+122
+00: 05: 53,000 -> 00: 05: 57,000
+comenzando con piezas de cinco a 7.000 letras,
+
+123
+00: 05: 57,000 -> 00: 06: 01,000
+juntarlos para hacer piezas de 24.000 letras,
+
+124
+00: 06: 01,000 -> 00: 06: 05,000
+Luego ponemos conjuntos de esos, subiendo a 72.000.
+
+125
+00: 06: 05,000 -> 00: 06: 07,000
+En cada etapa crecimos estas piezas en abundancia.
+
+126
+00: 06: 07,000 -> 00: 06: 09,000
+para que pudiéramos secuenciarlos
+
+127
+00: 06: 09,000 -> 00: 06: 12,000
+Porque estamos tratando de crear un proceso que sea extremadamente robusto.
+
+128
+00: 06: 12,000 -> 00: 06: 15,000
+que se puede ver en un minuto
+
+129
+00: 06: 15,000 -> 00: 06: 17,000
+Estamos tratando de llegar al punto de la automatización.
+
+130
+00: 06: 18,000 -> 00: 06: 20,000
+Entonces, esto parece un playoff de baloncesto.
+
+131
+00: 06: 20,000 -> 00: 06: 22,000
+Cuando nos metemos en estas piezas realmente grandes -
+
+132
+00: 06: 22,000 -> 00: 06: 26,000
+más de 100,000 pares de bases -
+
+133
+00: 06: 26,000 -> 00: 06: 28,000
+ya no crecerán fácilmente en E. coli.
+
+134
+00: 06: 28,000 -> 00: 06: 32,000
+Agota todas las herramientas modernas de la biología molecular.
+
+135
+00: 06: 32,000 -> 00: 06: 36,000
+Y así nos dirigimos a otros mecanismos.
+
+136
+00: 06: 36,000 -> 00: 06: 39,000
+Sabíamos que hay un mecanismo llamado recombinación homóloga,
+
+137
+00: 06: 39,000 -> 00: 06: 42,000
+que la biología utiliza para reparar el ADN,
+
+138
+00: 06: 42,000 -> 00: 06: 45,000
+ Eso puede juntar piezas.
+
+139
+00: 06: 45,000 -> 00: 06: 46,000
+Aquí hay un ejemplo de ello.
+
+140
+00: 06: 46,000 -> 00: 06: 47,000
+Hay un organismo llamado
+
+141
+00: 06: 47,000 -> 00: 06: 49,000
+Deinococcus radiodurans
+
+142
+00: 06: 49,000 -> 00: 06: 52,000
+Eso puede llevar tres millones de rads de radiación.
+
+143
+00: 06: 52,000 -> 00: 06: 56,000
+Se puede ver en el panel superior, su cromosoma simplemente se destruye.
+
+144
+00: 06: 56,000 -> 00: 06: 59,000
+12 a 24 horas después, lo puso.
+
+145
+00: 06: 59,000 -> 00: 07: 01,000
+volver juntos exactamente como era antes.
+
+146
+00: 07: 01,000 -> 00: 07: 04,000
+Tenemos miles de organismos que pueden hacer esto.
+
+147
+00: 07: 04,000 -> 00: 07: 06,000
+Estos organismos pueden ser totalmente desecados.
+
+148
+00: 07: 06,000 -> 00: 07: 08,000
+Pueden vivir en un vacío.
+
+149
+00: 07: 09,000 -> 00: 07: 12,000
+Estoy absolutamente seguro de que la vida puede existir en el espacio exterior,
+
+150
+00: 07: 12,000 -> 00: 07: 15,000
+Muévete, encuentra un nuevo ambiente acuoso.
+
+151
+00: 07: 15,000 -> 00: 07: 19,000
+De hecho, la NASA ha demostrado que mucho de esto está ahí fuera.
+
+152
+00: 07: 19,000 -> 00: 07: 23,000
+Aquí hay una micrografía real de la molécula que construimos
+
+153
+00: 07: 23,000 -> 00: 07: 27,000
+usando estos procesos - en realidad solo usando mecanismos de levadura
+
+154
+00: 07: 27,000 -> 00: 07: 30,000
+Con el diseño correcto de las piezas las colocamos.
+
+155
+00: 07: 30,000 -> 00: 07: 33,000
+La levadura las junta automáticamente.
+
+156
+00: 07: 33,000 -> 00: 07: 35,000
+Esto no es una micrografía electrónica;
+
+157
+00: 07: 35,000 -> 00: 07: 37,000
+Esto es sólo una fotomicrografía regular.
+
+158
+00: 07: 37,000 -> 00: 07: 39,000
+Es una molécula tan grande
+
+159
+00: 07: 39,000 -> 00: 07: 42,000
+Lo podemos ver con un microscopio de luz.
+
+160
+00: 07: 42,000 -> 00: 07: 45,000
+Estas son imágenes de alrededor de un período de seis segundos.
+
+161
+00: 07: 45,000 -> 00: 07: 49,000
+Así que esta es la publicación que tuvimos hace poco.
+
+162
+00: 07: 49,000 -> 00: 07: 52,000
+Esto es más de 580,000 letras de código genético.
+
+163
+00: 07: 52,000 -> 00: 07: 57,000
+Es la molécula más grande jamás hecha por humanos de una estructura definida.
+
+164
+00: 07: 57,000 -> 00: 08: 00,000
+Tiene más de 300 millones de pesos moleculares.
+
+165
+00: 08: 00,000 -> 00: 08: 03,000
+Si imprimimos en una fuente de 10 sin espaciado,
+
+166
+00: 08: 03,000 -> 00: 08: 05,000
+se necesitan 142 páginas
+
+167
+00: 08: 05,000 -> 00: 08: 09,000
+Sólo para imprimir este código genético.
+
+168
+00: 08: 09,000 -> 00: 08: 12,000
+Bueno, ¿cómo podemos arrancar un cromosoma? ¿Cómo activamos esto?
+
+169
+00: 08: 12,000 -> 00: 08: 15,000
+Obviamente, con un virus es bastante simple.
+
+170
+00: 08: 15,000 -> 00: 08: 18,000
+Es mucho más complicado tratar con las bacterias.
+
+171
+00: 08: 18,000 -> 00: 08: 20,000
+También es más sencillo cuando vas
+
+172
+00: 08: 20,000 -> 00: 08: 22,000
+ en eucariotas como nosotros:
+
+173
+00: 08: 22,000 -> 00: 08: 24,000
+puedes simplemente sacar el núcleo
+
+174
+00: 08: 24,000 -> 00: 08: 26,000
+y pop en otro,
+
+175
+00: 08: 26,000 -> 00: 08: 29,000
+y eso es lo que todos han escuchado sobre la clonación.
+
+176
+00: 08: 29,000 -> 00: 08: 33,000
+Con las bacterias arqueas, el cromosoma se integra en la célula,
+
+177
+00: 08: 33,000 -> 00: 08: 37,000
+Pero recientemente hemos demostrado que podemos hacer un trasplante completo.
+
+178
+00: 08: 37,000 -> 00: 08: 39,000
+de un cromosoma de una célula a otra
+
+179
+00: 08: 39,000 -> 00: 08: 42,000
+y activarlo.
+
+180
+00: 08: 42,000 -> 00: 08: 46,000
+Purificamos un cromosoma de una especie microbiana.
+
+181
+00: 08: 46,000 -> 00: 08: 49,000
+A grandes rasgos, estos dos son tan distantes como los humanos y los ratones.
+
+182
+00: 08: 49,000 -> 00: 08: 51,000
+Añadimos unos cuantos genes extra.
+
+183
+00: 08: 51,000 -> 00: 08: 53,000
+Así podríamos seleccionar para este cromosoma.
+
+184
+00: 08: 53,000 -> 00: 08: 55,000
+Lo digerimos con enzimas.
+
+185
+00: 08: 55,000 -> 00: 08: 57,000
+Para matar todas las proteínas.
+
+186
+00: 08: 57,000 -> 00: 09: 00,000
+Y fue bastante impresionante cuando pusimos esto en la celda -
+
+187
+00: 09: 00,000 -> 00: 09: 02,000
+y apreciarás
+
+188
+00: 09: 02,000 -> 00: 09: 05,000
+nuestros gráficos muy sofisticados aquí -
+
+189
+00: 09: 05,000 -> 00: 09: 08,000
+El nuevo cromosoma entró en la célula.
+
+190
+00: 09: 08,000 -> 00: 09: 10,000
+De hecho, pensamos que esto podría llegar tan lejos,
+
+191
+00: 09: 10,000 -> 00: 09: 13,000
+Pero intentamos diseñar el proceso un poco más.
+
+192
+00: 09: 13,000 -> 00: 09: 16,000
+Este es un importante mecanismo de evolución aquí.
+
+193
+00: 09: 16,000 -> 00: 09: 18,000
+Encontramos todo tipo de especies.
+
+194
+00: 09: 18,000 -> 00: 09: 20,000
+que han tomado un segundo cromosoma
+
+195
+00: 09: 20,000 -> 00: 09: 22,000
+o un tercero de alguna parte,
+
+196
+00: 09: 22,000 -> 00: 09: 24,000
+añadiendo miles de nuevos rasgos
+
+197
+00: 09: 24,000 -> 00: 09: 26,000
+ En un segundo a esa especie.
+
+198
+00: 09: 26,000 -> 00: 09: 28,000
+Así que la gente que piensa en la evolución.
+
+199
+00: 09: 28,000 -> 00: 09: 30,000
+como un solo gen que cambia a la vez
+
+200
+00: 09: 30,000 -> 00: 09: 33,000
+Se han perdido gran parte de la biología.
+
+201
+00: 09: 33,000 -> 00: 09: 35,000
+Hay enzimas llamadas enzimas de restricción
+
+202
+00: 09: 35,000 -> 00: 09: 37,000
+Que en realidad digieren el ADN.
+
+203
+00: 09: 37,000 -> 00: 09: 39,000
+El cromosoma que estaba en la célula.
+
+204
+00: 09: 39,000 -> 00: 09: 41,000
+no tiene uno
+
+205
+00: 09: 41,000 -> 00: 09: 43,000
+La célula, el cromosoma que colocamos, lo hace.
+
+206
+00: 09: 43,000 -> 00: 09: 45,000
+Se expresó, y se reconoció.
+
+207
+00: 09: 45,000 -> 00: 09: 48,000
+el otro cromosoma como materia extraña,
+
+208
+00: 09: 48,000 -> 00: 09: 50,000
+Lo masticamos, y así terminamos.
+
+209
+00: 09: 50,000 -> 00: 09: 54,000
+Solo con la célula con el nuevo cromosoma.
+
+210
+00: 09: 54,000 -> 00: 09: 57,000
+Se volvió azul debido a los genes que ponemos en ella.
+
+211
+00: 09: 57,000 -> 00: 09: 59,000
+Y con un periodo de tiempo muy corto,
+
+212
+00: 09: 59,000 -> 00: 10: 02,000
+todas las características de una especie se perdieron,
+
+213
+00: 10: 02,000 -> 00: 10: 05,000
+y se convirtió totalmente en la nueva especie,
+
+214
+00: 10: 05,000 -> 00: 10: 05,000
+Basado en el nuevo software que ponemos en la celda.
+
+215
+00: 10: 08,000 -> 00: 10: 10,000
+Todas las proteínas cambiaron,
+
+216
+00: 10: 10,000 -> 00: 10: 12,000
+las membranas cambiaron
+
+217
+00: 10: 12,000 -> 00: 10: 16,000
+cuando leemos el código genético, es exactamente lo que transferimos.
+
+218
+00: 10: 16,000 -> 00: 10: 19,000
+Así que esto puede sonar como alquimia genómica,
+
+219
+00: 10: 19,000 -> 00: 10: 23,000
+pero podemos, moviendo el software ADN alrededor,
+
+220
+00: 10: 23,000 -> 00: 10: 27,000
+cambiar las cosas bastante dramáticamente.
+
+221
+00: 10: 27,000 -> 00: 10: 29,000
+Ahora, he argumentado, esto no es génesis -
+
+222
+00: 10: 29,000 -> 00: 10: 33,000
+esto se basa en tres mil quinientos millones de años de evolución,
+
+223
+00: 10: 34,000 -> 00: 10: 36,000
+y he argumentado que estamos a punto de tal vez
+
+224
+00: 10: 36,000 -> 00: 10: 39,000
+ Crea una nueva versión de la explosión cámbrica.
+
+225
+00: 10: 39,000 -> 00: 10: 42,000
+donde hay una nueva especiación masiva
+
+226
+00: 10: 43,000 -> 00: 10: 45,000
+Basado en este diseño digital.
+
+227
+00: 10: 45,000 -> 00: 10: 47,000
+¿Por qué hacer esto?
+
+228
+00: 10: 47,000 -> 00: 10: 49,000
+Creo que esto es bastante obvio en términos de algunas de las necesidades.
+
+229
+00: 10: 49,000 -> 00: 10: 51,000
+Estamos a punto de pasar de las seis y media.
+
+230
+00: 10: 51,000 -> 00: 10: 54,000
+A 9 mil millones de personas en los próximos 40 años.
+
+231
+00: 10: 54,000 -> 00: 10: 56,000
+Para ponerlo en contexto para mí:
+
+232
+00: 10: 56,000 -> 00: 10: 58,000
+Nací en 1946.
+
+233
+00: 10: 58,000 -> 00: 11: 00,000
+Ahora hay tres personas en el planeta
+
+234
+00: 11: 00,000 -> 00: 11: 04,000
+por cada uno de nosotros que existió en 1946;
+
+235
+00: 11: 04,000 -> 00: 11: 07,000
+Dentro de 40 años, habrá cuatro.
+
+236
+00: 11: 07,000 -> 00: 11: 10,000
+Tenemos problemas para alimentar, proporcionar agua fresca y limpia,
+
+237
+00: 11: 10,000 -> 00: 11: 12,000
+medicinas, combustible
+
+238
+00: 11: 12,000 -> 00: 11: 15,000
+Por los seis mil quinientos millones.
+
+239
+00: 11: 15,000 -> 00: 11: 17,000
+Va a ser un tramo para hacerlo por nueve.
+
+240
+00: 11: 17,000 -> 00: 11: 20,000
+Utilizamos más de 5 mil millones de toneladas de carbón,
+
+241
+00: 11: 20,000 -> 00: 11: 23,000
+Más de 30 mil millones de barriles de petróleo.
+
+242
+00: 11: 23,000 -> 00: 11: 27,000
+Eso es cien millones de barriles por día.
+
+243
+00: 11: 27,000 -> 00: 11: 29,000
+Cuando intentamos pensar en procesos biológicos.
+
+244
+00: 11: 29,000 -> 00: 11: 32,000
+o cualquier proceso para reemplazar eso,
+
+245
+00: 11: 32,000 -> 00: 11: 34,000
+Va a ser un gran desafío.
+
+246
+00: 11: 34,000 -> 00: 11: 36,000
+Entonces, por supuesto, está todo eso.
+
+247
+00: 11: 36,000 -> 00: 11: 38,000
+CO2 de este material
+
+248
+00: 11: 38,000 -> 00: 11: 41,000
+Eso termina en el ambiente.
+
+249
+00: 11: 41,000 -> 00: 11: 43,000
+Ahora, desde nuestro descubrimiento alrededor del mundo,
+
+250
+00: 11: 43,000 -> 00: 11: 47,000
+ tener una base de datos con unos 20 millones de genes,
+
+251
+00: 11: 47,000 -> 00: 11: 51,000
+y me gusta pensar en estos como los componentes de diseño del futuro.
+
+252
+00: 11: 51,000 -> 00: 11: 54,000
+La industria electrónica solo tenía una docena de componentes,
+
+253
+00: 11: 54,000 -> 00: 11: 58,000
+y mira la diversidad que salió de eso.
+
+254
+00: 11: 58,000 -> 00: 12: 00,000
+Estamos limitados aquí principalmente
+
+255
+00: 12: 00,000 -> 00: 12: 02,000
+por una realidad biologica
+
+256
+00: 12: 02,000 -> 00: 12: 04,000
+y nuestra imaginación.
+
+257
+00: 12: 05,000 -> 00: 12: 07,000
+Ahora tenemos técnicas,
+
+258
+00: 12: 07,000 -> 00: 12: 10,000
+Debido a estos rápidos métodos de síntesis,
+
+259
+00: 12: 10,000 -> 00: 12: 14,000
+para hacer lo que llamamos genómica combinatoria.
+
+260
+00: 12: 14,000 -> 00: 12: 17,000
+Ahora tenemos la capacidad de construir un gran robot.
+
+261
+00: 12: 17,000 -> 00: 12: 20,000
+Eso puede hacer un millón de cromosomas al día.
+
+262
+00: 12: 21,000 -> 00: 12: 24,000
+Cuando piensas en procesar estos 20 millones de genes diferentes,
+
+263
+00: 12: 24,000 -> 00: 12: 26,000
+o intentando optimizar procesos
+
+264
+00: 12: 26,000 -> 00: 12: 29,000
+ producir octanaje o producir productos farmacéuticos,
+
+265
+00: 12: 29,000 -> 00: 12: 32,000
+nuevas vacunas,
+
+266
+00: 12: 32,000 -> 00: 12: 35,000
+Podemos cambiar, solo con un pequeño equipo,
+
+267
+00: 12: 35,000 -> 00: 12: 37,000
+hacer mas biologia molecular
+
+268
+00: 12: 37,000 -> 00: 12: 40,000
+que los últimos 20 años de toda la ciencia.
+
+269
+00: 12: 40,000 -> 00: 12: 42,000
+Y es solo la selección estándar.
+
+270
+00: 12: 42,000 -> 00: 12: 44,000
+Podemos seleccionar la viabilidad,
+
+271
+00: 12: 44,000 -> 00: 12: 46,000
+producción química o de combustibles,
+
+272
+00: 12: 46,000 -> 00: 12: 48,000
+Producción de vacunas, etcétera.
+
+273
+00: 12: 48,000 -> 00: 12: 51,000
+Esta es una captura de pantalla
+
+274
+00: 12: 51,000 -> 00: 12: 54,000
+de algún software de diseño verdadero
+
+275
+00: 12: 54,000 -> 00: 12: 57,000
+en los que estamos trabajando para poder sentarnos
+
+276
+00: 12: 57,000 -> 00: 13: 00,000
+y diseño de especies en la computadora.
+
+277
+00: 13: 01,000 -> 00: 13: 04,000
+Sabes, no sabemos necesariamente cómo será.
+
+278
+00: 13: 04,000 -> 00: 13: 07,000
+Sabemos exactamente cómo es su código genético.
+
+279
+00: 13: 07,000 -> 00: 13: 12,000
+Nos estamos centrando ahora en los combustibles de cuarta generación.
+
+280
+00: 13: 13,000 -> 00: 13: 15,000
+Has visto recientemente maíz con etanol
+
+281
+00: 13: 15,000 -> 00: 13: 17,000
+Es solo un mal experimento.
+
+282
+00: 13: 17,000 -> 00: 13: 19,000
+Contamos con combustibles de segunda y tercera generación.
+
+283
+00: 13: 19,000 -> 00: 13: 22,000
+que saldrá relativamente pronto
+
+284
+00: 13: 22,000 -> 00: 13: 25,000
+que son azúcares, a combustibles de mucho mayor valor.
+
+285
+00: 13: 25,000 -> 00: 13: 28,000
+Como el octano o diferentes tipos de butanol.
+
+286
+00: 13: 28,000 -> 00: 13: 31,000
+Pero la única forma en que pensamos que la biología.
+
+287
+00: 13: 31,000 -> 00: 13: 33,000
+puede tener un gran impacto sin
+
+288
+00: 13: 34,000 -> 00: 13: 37,000
+Aumentar aún más el costo de los alimentos y limitar su disponibilidad.
+
+289
+00: 13: 37,000 -> 00: 13: 40,000
+es si empezamos con el CO2 como materia prima,
+
+290
+00: 13: 40,000 -> 00: 13: 44,000
+y por eso estamos trabajando en el diseño de células para recorrer este camino,
+
+291
+00: 13: 45,000 -> 00: 13: 48,000
+Y creemos que tendremos los primeros combustibles de cuarta generación.
+
+292
+00: 13: 48,000 -> 00: 13: 50,000
+En unos 18 meses.
+
+293
+00: 13: 50,000 -> 00: 13: 52,000
+La luz del sol y el CO2 son un método -
+
+294
+00: 13: 52,000 -> 00: 13: 57,000
+(Aplausos)
+
+295
+00: 13: 57,000 -> 00: 13: 59,000
+- Pero en nuestro descubrimiento alrededor del mundo,
+
+296
+00: 13: 59,000 -> 00: 14: 01,000
+Tenemos todo tipo de otros métodos.
+
+297
+00: 14: 01,000 -> 00: 14: 05,000
+Este es un organismo que describimos en 1996.
+
+298
+00: 14: 05,000 -> 00: 14: 07,000
+Vive en el océano profundo,
+
+299
+00: 14: 07,000 -> 00: 14: 09,000
+cerca de una milla y media de profundidad,
+
+300
+00: 14: 09,000 -> 00: 14: 11,000
+Casi a temperaturas de agua hirviendo.
+
+301
+00: 14: 11,000 -> 00: 14: 14,000
+Lleva CO2 al metano
+
+302
+00: 14: 14,000 -> 00: 14: 17,000
+Utilizando hidrógeno molecular como fuente de energía.
+
+303
+00: 14: 17,000 -> 00: 14: 19,000
+Estamos mirando para ver si podemos tomar
+
+304
+00: 14: 19,000 -> 00: 14: 21,000
+CO2 capturado,
+
+305
+00: 14: 21,000 -> 00: 14: 23,000
+que puede ser fácilmente canalizado a sitios,
+
+306
+00: 14: 23,000 -> 00: 14: 26,000
+convertir ese CO2 de nuevo en combustible,
+
+307
+00: 14: 26,000 -> 00: 14: 29,000
+para impulsar este proceso.
+
+308
+00: 14: 29,000 -> 00: 14: 31,000
+Así que en un corto período de tiempo,
+
+309
+00: 14: 31,000 -> 00: 14: 35,000
+Pensamos que podríamos ser capaces de aumentar
+
+310
+00: 14: 35,000 -> 00: 14: 38,000
+¿Cuál es la pregunta básica de "¿Qué es la vida?"
+
+311
+00: 14: 38,000 -> 00: 14: 40,000
+Estamos realmente, ya sabes ...
+
+312
+00: 14: 40,000 -> 00: 14: 42,000
+tener metas modestas
+
+313
+00: 14: 42,000 -> 00: 14: 45,000
+de sustitución de toda la industria petrolero-química.
+
+314
+00: 14: 45,000 -> 00: 14: 48,000
+ (Risas) (Aplausos)
+
+315
+00: 14: 48,000 -> 00: 14: 51,000
+Sí. Si no puedes hacer eso en TED, ¿dónde puedes?
+
+316
+00: 14: 51,000 -> 00: 14: 53,000
+(Risa)
+
+317
+00: 14: 53,000 -> 00: 14: 55,000
+Conviértete en una importante fuente de energía.
+
+318
+00: 14: 55,000 -> 00: 14: 58,000
+Pero también, ahora estamos trabajando en el uso de estas mismas herramientas.
+
+319
+00: 14: 58,000 -> 00: 15: 01,000
+Para llegar a conjuntos instantáneos de vacunas.
+
+320
+00: 15: 01,000 -> 00: 15: 03,000
+Has visto este año con gripe,
+
+321
+00: 15: 03,000 -> 00: 15: 06,000
+Siempre estamos un año atrás y un dólar corto.
+
+322
+00: 15: 06,000 -> 00: 15: 08,000
+Cuando se trata de la vacuna adecuada.
+
+323
+00: 15: 08,000 -> 00: 15: 10,000
+ Creo que eso se puede cambiar.
+
+324
+00: 15: 10,000 -> 00: 15: 13,000
+mediante la construcción de vacunas combinatorias de antemano.
+
+325
+00: 15: 14,000 -> 00: 15: 17,000
+Así es como el futuro puede comenzar a verse
+
+326
+00: 15: 17,000 -> 00: 15: 21,000
+Con el cambio, ahora, el árbol evolutivo,
+
+327
+00: 15: 21,000 -> 00: 15: 23,000
+acelerando la evolución
+
+328
+00: 15: 23,000 -> 00: 15: 26,000
+ con bacterias sinteticas, archea,
+
+329
+00: 15: 26,000 -> 00: 15: 29,000
+y eventualmente los eucariotas.
+
+330
+00: 15: 30,000 -> 00: 15: 32,000
+Estamos lejos de mejorar a las personas.
+
+331
+00: 15: 32,000 -> 00: 15: 35,000
+Nuestro objetivo es asegurarnos de que tenemos una oportunidad.
+
+332
+00: 15: 35,000 -> 00: 15: 38,000
+para sobrevivir el tiempo suficiente para tal vez hacer eso. Muchas gracias.
+
+333
+00: 15: 38,000 -> 00: 15: 45,000
+(Aplausos)

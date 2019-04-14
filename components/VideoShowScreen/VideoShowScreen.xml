@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--********** Copyright 2019 Roku Corp.  All Rights Reserved. **********-->
+
+<!-- node that renders Library screen. handles showing a collection of compilations -->
+<component name="VideoShowScreen" extends="Group" initialFocus="RowList">
+  <children>
+
+    <!-- Background poster -->
+    <Poster
+      id="Background"
+      width="1920"
+      height="1080" />
+
+    <Animation
+      id="fadeinAnimation"
+      repeat="false"
+      duration="0.3">
+      <FloatFieldInterpolator
+        id="backgroundInterpolator"
+        key="[0.0, 1.0]"
+        keyValue="[0.0, 1.0]"
+        fieldToInterp="Background.opacity"/>
+    </Animation>
+
+    <Animation
+      id="fadeoutAnimation"
+      repeat="false"
+      duration="0.3">
+      <FloatFieldInterpolator
+        id="backgroundInterpolator"
+        key="[0.0, 1.0]"
+        keyValue="[1.0, 0.0]"
+        fieldToInterp="Background.opacity"/>
+    </Animation>
+
+    <!-- Background fade -->
+    <Rectangle
+      translation="[0,0]"
+      width="1920"
+      height="1080"
+      color="0x000000"
+      opacity="0.8" />
+
+    <!-- The main content -->
+    <RowList
+	    id="RowList"
+      itemComponentName="customItem"
+      focusXOffset="[30]"
+      itemSize="[1920,220]"
+      numRows="9"
+      rowFocusAnimationStyle="FixedFocusWrap"
+      rowItemSize="[[375,197]]"
+      rowItemSpacing="[[30,0]]"
+      rowLabelOffset="[[165,8]]"
+      showRowLabel="[false]"
+      showRowCounter="[false]"
+      opacity = "0.7"
+      translation="[0,155]"/>
+
+    <Rectangle
+      id = "EpisodeInfoBackground"
+      width = "660"
+      height = "950"
+      color = "0x000000FF"
+      opacity = "0.45"
+      translation = "[1228,130]" />
+
+    <Rectangle
+      width = "1920"
+      height = "130"
+      color = "0x000000FF"
+      opacity = "0.45"
+      translation = "[0,0]" />
+
+    <Group
+      id = "EpisodeInfoGroup"
+      width = "660"
+      height = "920"
+      translation = "[1228,155]">
+
+      <Poster
+        id="EpisodeScreenshotPoster"
+        width="450"
+        height="250"
+        translation="[105,25]" />
+
+      <!-- Set Text in brs to Summary Title-->
+      <Label
+        id = "EpisodeTitle"
+        color = "0xFFFFFFFF"
+        width = "630"
+        height = "104"
+        wrap = "true"
+        horizAlign = "center"
+        vertAlign = "center"
+        translation = "[15,280]"
+        >
+        <Font
+          role = "font"
+          uri = "pkg:/components/fonts/avenirltstd-light-webfont.ttf"
+          id = "avenir-light"
+          size = "34"
+        />
+      </Label>
+
+      <!-- Set Text in brs to Summary Title-->
+      <Label
+        id = "EpisodeDate"
+        color = "0xFFFFFFFF"
+        width = "630"
+        height = "52"
+        wrap = "true"
+        horizAlign = "center"
+        translation = "[15,399]"
+        >
+        <Font
+          role = "font"
+          uri = "pkg:/components/fonts/avenirltstd-light-webfont.ttf"
+          id = "avenir-light"
+          size = "34"
+        />
+      </Label>
+
+      <!-- Set Text in brs to Summary Title-->
+      <Label
+        id = "EpisodeSummary"
+        color = "0xFFFFFFFF"
+        width = "630"
+        height = "454"
+        wrap = "true"
+        translation = "[15,466]"
+        >
+        <Font
+          role = "font"
+          uri = "pkg:/components/fonts/avenirltstd-light-webfont.ttf"
+          id = "avenir-light"
+          size = "26"
+        />
+      </Label>
+    </Group>
+
+    <!-- Overhang Node (has to be rendered after others) -->
+    <Overhang
+      id="Overhang"
+      logoUri="pkg://images/assets/jblogo.png"
+      showClock="true"
+      title="Compilation Screen" />
+
+  </children>
+
+    <interface>
+      <!-- Overhang fields -->
+      <field id="videoShowTitle" type="string" alias="Overhang.title"/>
+      <!-- Content fields -->
+      <field id="content" type="node" alwaysnotify="true" onChange="OnContentChange" />
+
+      <!-- Row item selection handler -->
+      <field id="rowItemSelected" type="intarray" alias="RowList.rowItemSelected" alwaysnotify="true"/>
+      <!-- Row item focused handler - sets background image uri and focusedContent field -->
+      <field id="itemFocused" type="intarray" alias="RowList.rowItemFocused" onChange="OnItemFocused"/>
+      <!-- Interface to focused item (Content Node) -->
+      <field id="focusedContent"  type="node"/>
+
+    </interface>
+
+    <!-- main handler -->
+    <script type="text/brightscript" uri="pkg:/components/VideoShowScreen/VideoShowScreen.brs" />
+</component>

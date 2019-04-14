@@ -1,0 +1,5 @@
+{
+    "shouldReadLocalFeed" : false,
+    "localFeedUri" : "pkg:/source/roku_feed.json",
+    "remoteFeedUri" : "https://covarianttensor.github.io/feeds/roku/roku_feed.json"
+}

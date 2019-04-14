@@ -1,0 +1,434 @@
+{
+    "homepage" : [
+        "featuredrow",
+        "mostrecentrow",
+        "mostrecentaudiorow",
+        "allcontentrow"
+    ],
+    "collections" : {
+        "currentshows" : {
+            "title" : "Current Shows",
+            "group" : [
+                { "organizationType" : "compilations", "id" : "bsdnow"},
+                { "organizationType" : "compilations", "id" : "chooselinux"}
+            ],
+            "uniqueProperties" : {}
+        },
+        "currentpodcasts" : {
+            "title" : "Current Podcasts",
+            "group" : [
+                { "organizationType" : "compilations", "id" : "bsdnowaudio"},
+                { "organizationType" : "compilations", "id" : "chooselinuxaudio"}
+            ],
+            "uniqueProperties" : {}
+        },
+        "bsdnowshow" : {
+            "title" : "BSD Now",
+            "group" : [
+                { "organizationType" : "content", "id" : "bsdnow1"},
+                { "organizationType" : "content", "id" : "bsdnow2"},
+                { "organizationType" : "content", "id" : "bsdnow3"}
+            ],
+            "uniqueProperties" : {}
+        },
+        "bsdnowaudioshow" : {
+            "title" : "BSD Now (Audio)",
+            "group" : [
+                { "organizationType" : "content", "id" : "bsdnowaudio1"},
+                { "organizationType" : "content", "id" : "bsdnowaudio2"},
+                { "organizationType" : "content", "id" : "bsdnowaudio3"}
+            ],
+            "uniqueProperties" : {}
+        },
+        "chooselinuxshow" : {
+            "title" : "Choose Linux",
+            "group" : [
+                { "organizationType" : "content", "id" : "chooselinux1"},
+                { "organizationType" : "content", "id" : "chooselinux2"}
+            ],
+            "uniqueProperties" : {
+                "itemDisplayMode" : "episode"
+            }
+        },
+        "chooselinuxaudioshow" : {
+            "title" : "Choose Linux (Audio)",
+            "group" : [
+                { "organizationType" : "content", "id" : "chooselinuxaudio1"}
+            ],
+            "uniqueProperties" : {}
+        },
+        "featuredrow" : {
+            "title" : "Featured",
+            "group" : [
+                { "organizationType" : "content", "id" : "bsdnow1"},
+                { "organizationType" : "content", "id" : "chooselinux1"},
+                { "organizationType" : "content", "id" : "bsdnow2"}
+            ],
+            "uniqueProperties" : {
+                "itemDisplayMode" : "featured"
+            }
+        },
+        "mostrecentrow" : {
+            "title" : "Most Recent",
+            "group" : [
+                { "organizationType" : "content", "id" : "bsdnow3"},
+                { "organizationType" : "content", "id" : "chooselinux2"}
+            ],
+            "uniqueProperties" : {}
+        },
+        "mostrecentaudiorow" : {
+            "title" : "Most Recent (Audio)",
+            "group" : [
+                { "organizationType" : "content", "id" : "bsdnowaudio3"},
+                { "organizationType" : "content", "id" : "bsdnowaudio2"},
+                { "organizationType" : "content", "id" : "chooselinuxaudio1"}
+            ],
+            "uniqueProperties" : {}
+        },
+        "allcontentrow" : {
+            "title" : "All Content",
+            "group" : [
+                { "organizationType" : "content", "id" : "livevideo1"},
+                { "organizationType" : "content", "id" : "liveaudio1"},
+                { "organizationType" : "libraries", "id" : "currentshows"},
+                { "organizationType" : "libraries", "id" : "currentpodcasts"}
+            ],
+            "uniqueProperties" : {}
+        }
+    },
+    "libraries" : {
+        "currentshows" : {
+            "containerType" : "library",
+            "title" : "Current Shows",
+            "shortTitle" : "Current Shows",
+            "hdPosterUrl" : "pkg://images/assets/CurrentShows_375x375.png",
+            "hdBackgroundImageUrl" : "pkg://images/assets/Solid_2a2a2a_1920x1080.png",
+            "collectionId" : "currentshows",
+            "uniqueProperties" : {
+                "itemDisplayMode" : "icon"
+            }
+        },
+        "currentpodcasts" : {
+            "containerType" : "library",
+            "title" : "Current Podcasts",
+            "shortTitle" : "Current Podcasts",
+            "hdPosterUrl" : "pkg://images/assets/Podcasts_375x375.png",
+            "hdBackgroundImageUrl" : "pkg://images/assets/Solid_2a2a2a_1920x1080.png",
+            "collectionId" : "currentpodcasts",
+            "uniqueProperties" : {
+                "itemDisplayMode" : "icon"
+            }
+        }
+    },
+    "compilations" : {
+        "bsdnow" : {
+            "containerType" : "videoshow",
+            "title" : "BSD Now",
+            "description" : "Created by three guys who love BSD, we cover the latest news and have an extensive series of tutorials, as well as interviews with various people from all areas of the BSD community. It also serves as a platform for support and questions. We love and advocate FreeBSD, OpenBSD, NetBSD, DragonFlyBSD and TrueOS. Our show aims to be helpful and informative for new users that want to learn about them, but still be entertaining for the people who are already pros.",
+            "firstAired" : "2011-12-25",
+            "hdPosterUrl" : "pkg://images/assets/bsdnow_375x375.png",
+            "hdBackgroundImageUrl" : "pkg://images/assets/bsdnow_1920x1080.jpg",
+            "collectionId" : "bsdnowshow",
+            "uniqueProperties" : {
+                "itemDisplayMode" : "show"
+            }
+        },
+        "bsdnowaudio" : {
+            "containerType" : "audioshow",
+            "title" : "BSD Now (Audio)",
+            "description" : "Created by three guys who love BSD, we cover the latest news and have an extensive series of tutorials, as well as interviews with various people from all areas of the BSD community. It also serves as a platform for support and questions. We love and advocate FreeBSD, OpenBSD, NetBSD, DragonFlyBSD and TrueOS. Our show aims to be helpful and informative for new users that want to learn about them, but still be entertaining for the people who are already pros.",
+            "firstAired" : "2011-12-25",
+            "hdPosterUrl" : "pkg://images/assets/bsdnow_375x375.png",
+            "hdBackgroundImageUrl" : "pkg://images/assets/bsdnow_1920x1080.jpg",
+            "collectionId" : "bsdnowaudioshow",
+            "uniqueProperties" : {
+                "itemDisplayMode" : "show",
+                "playbarColor" : "0xed0b0bff"
+            }
+        },
+        "chooselinux" : {
+            "containerType" : "videoshow",
+            "title" : "Choose Linux",
+            "description" : "Every 2 weeks, Jason joins Joe to share the latest developments on his journey into the Linux and Open Source world.",
+            "firstAired" : "2011-12-25",
+            "hdPosterUrl" : "pkg://images/assets/chooselinux_375x375.png",
+            "hdBackgroundImageUrl" : "pkg://images/assets/chooselinux_1920x1080.jpg",
+            "collectionId" : "chooselinuxshow",
+            "uniqueProperties" : {
+                "itemDisplayMode" : "show"
+            }
+        },
+        "chooselinuxaudio" : {
+            "containerType" : "audioshow",
+            "title" : "Choose Linux (Audio)",
+            "description" : "Every 2 weeks, Jason joins Joe to share the latest developments on his journey into the Linux and Open Source world.",
+            "firstAired" : "2011-12-25",
+            "hdPosterUrl" : "pkg://images/assets/chooselinux_375x375.png",
+            "hdBackgroundImageUrl" : "pkg://images/assets/chooselinux_1920x1080.jpg",
+            "collectionId" : "chooselinuxaudioshow",
+            "uniqueProperties" : {
+                "itemDisplayMode" : "show",
+                "playbarColor" : "0x41e510ff"
+            }
+        }
+    },
+    "content" : {
+        "tweet1" : {
+            "containerType" : "tweet",
+            "tweetAge" : "2 days ago",
+            "handle" : "@ChrisLAS",
+            "profileName" : "Chris Fisher",
+            "profileImageUrl" : "https://pbs.twimg.com/profile_images/1090635373221298176/g3Mc3AxG_400x400.jpg",
+            "profileBackgroundImageUrl" : "https://pbs.twimg.com/profile_banners/204057155/1484702580/1500x500",
+            "message" : "So excited to announce @ChooseLinux a show that captures the excitement of switching to Linux.",
+            "uniqueProperties" : {}
+        },
+        "livevideo1" : {
+            "containerType" : "videostream",
+            "title" : "Jupiter Broadcasting LIVE!",
+            "shortTitle" : "Watch LIVE!",
+            "description" : "Watch Jupiter Broadcasting LIVE!",
+            "shortDescription" : "Watch LIVE!",
+            "hdPosterUrl" : "pkg://images/assets/LiveVideo_375x375.png",
+            "hdBackgroundImageUrl" : "pkg://images/assets/Solid_2a2a2a_1920x1080.png",
+            "url" : "http://jupiter-hls.secdn.net/jupiter-channel/play/jupiter.smil/playlist.m3u8",
+            "streamFormat" : "hls",
+            "extrainfo" : {
+                "altHdPosterUrl" : "https://www.jupiterbroadcasting.com/wp-content/themes/jb2014/images/logo.png",
+                "altHdBackgroundImageUrl" : "pkg://images/assets/Solid_2a2a2a_1920x1080.png"
+            },
+            "uniqueProperties" : {
+                "itemDisplayMode" : "icon"
+            }
+        },
+        "liveaudio1" : {
+            "containerType" : "audiostream",
+            "title" : "JB Live FM",
+            "shortTitle" : "JB Live FM",
+            "description" : "Listen to Jupiter Broadcasting LIVE!",
+            "shortDescription" : "Listen LIVE!",
+            "hdPosterUrl" : "pkg://images/assets/Radio_375x375.png",
+            "hdBackgroundImageUrl" : "pkg://images/assets/Solid_2a2a2a_1920x1080.png",
+            "url" : "http://jblive.fm",
+            "streamFormat" : "mp3",
+            "extrainfo" : {
+                "altHdPosterUrl" : "https://www.jupiterbroadcasting.com/wp-content/themes/jb2014/images/logo.png",
+                "altHdBackgroundImageUrl" : "pkg://images/assets/Solid_2a2a2a_1920x1080.png"
+            },
+            "uniqueProperties" : {
+                "itemDisplayMode" : "icon"
+            }
+        },
+        "bsdnow1" : {
+            "containerType" : "video",
+            "title" : "Timestamped Notes | BSD Now 290",
+            "shortTitle" : "BSD Now 290",
+            "description" : "FreeBSD on Cavium ThunderX, looking at NetBSD as an OpenBSD user, taking time-stamped notes in vim, OpenBSD 6.5 has been tagged, FreeBSD and NetBSD in GSoC 2019, SecBSD: an UNIX-like OS for Hackers, and more.",
+            "shortDescription" : "BSD Now 290!",
+            "releaseDate" : " March 21, 2019",
+            "hdPosterUrl" : "https://www.jupiterbroadcasting.com/wp-content/uploads/2019/03/bsd-0290-300x178.png",
+            "hdBackgroundImageUrl" : "pkg://images/assets/bsdnow_1920x1080.jpg",
+            "url" : "http://201406.jb-dl.cdn.scaleengine.net/bsdnow/2019/bsd-0290.mp4",
+            "streamFormat" : "mp4",
+            "subtitleTracks" : [
+                {
+                    "Language" : "eng",
+                    "Description" : "English",
+                    "TrackName": "pkg:/source/CraigVenter.eng.srt"
+                },
+                {
+                    "Language" : "spa",
+                    "Description" : "Español",
+                    "TrackName": "pkg:/source/CraigVenter.spa.srt"
+                }
+            ],
+            "extrainfo" : {
+                "hosts" : [
+                    "allanjude",
+                    "benedictreuschling"
+                ],
+                "guests" : [
+                    "chrisfisher"
+                ],
+                "screenshotUrl" : "pkg://images/assets/sc.png"
+            },
+            "uniqueProperties" : {}
+        },
+        "bsdnow2" : {
+            "containerType" : "video",
+            "title" : "Microkernel Failure | BSD Now 289",
+            "shortTitle" : "BSD Now 289",
+            "description" : "A kernel of failure, IPv6 fragmentation vulnerability in OpenBSD’s pf, a guide to the terminal, using a Yubikey for SSH public key authentication, FreeBSD desktop series, and more.",
+            "shortDescription" : "BSD Now 289!",
+            "releaseDate" : "March 14, 2019",
+            "hdPosterUrl" : "https://www.jupiterbroadcasting.com/wp-content/uploads/2019/03/bsd-0289-300x178.png",
+            "hdBackgroundImageUrl" : "pkg://images/assets/bsdnow_1920x1080.jpg",
+            "url" : "http://201406.jb-dl.cdn.scaleengine.net/bsdnow/2019/bsd-0289.mp4",
+            "streamFormat" : "mp4",
+            "subtitleTracks" : [
+                {
+                    "Language" : "eng",
+                    "Description" : "English",
+                    "TrackName": "pkg:/source/CraigVenter.eng.srt"
+                },
+                {
+                    "Language" : "spa",
+                    "Description" : "Español",
+                    "TrackName": "pkg:/source/CraigVenter.spa.srt"
+                }
+            ],
+            "uniqueProperties" : {
+                "itemDisplayMode" : "episode"
+            }
+        },
+        "bsdnow3" : {
+            "containerType" : "video",
+            "title" : "Turing Complete Sed | BSD Now 288",
+            "shortTitle" : "BSD Now 288",
+            "description" : "Software will never fix Spectre-type bugs, a proof that sed is Turing complete, managed jails using Bastille, new version of netdata, using grep with /dev/null, using GMail with mutt, and more.",
+            "shortDescription" : "BSD Now 288!",
+            "releaseDate" : "March 7, 2019",
+            "hdPosterUrl" : "https://www.jupiterbroadcasting.com/wp-content/uploads/2019/03/bsd-0288-300x178.png",
+            "hdBackgroundImageUrl" : "pkg://images/assets/bsdnow_1920x1080.jpg",
+            "url" : "http://201406.jb-dl.cdn.scaleengine.net/bsdnow/2019/bsd-0288.mp4",
+            "streamFormat" : "mp4",
+            "subtitleTracks" : [
+                {
+                    "Language" : "eng",
+                    "Description" : "English",
+                    "TrackName": "pkg:/source/CraigVenter.eng.srt"
+                },
+                {
+                    "Language" : "spa",
+                    "Description" : "Español",
+                    "TrackName": "pkg:/source/CraigVenter.spa.srt"
+                }
+            ],
+            "uniqueProperties" : {}
+        },
+        "chooselinux1" : {
+            "containerType" : "video",
+            "title" : "Linux Gaming Report and Purism Librem 15 | Choose Linux 5",
+            "shortTitle" : "Choose Linux 5",
+            "description" : "Jason goes deeper down the rabbit hole by exploring the state of Steam gaming on 9 different Linux distributions. Find out how Fedora compares to Pop!_OS. Plus, first impressions of Purism’s brand new Librem 15 v4 laptop.",
+            "shortDescription" : "Choose Linux 5!",
+            "releaseDate" : "March 21, 2019",
+            "hdPosterUrl" : "https://www.jupiterbroadcasting.com/wp-content/uploads/2019/01/choose-linux-yt-thumb-cf-300x169.jpg",
+            "hdBackgroundImageUrl" : "pkg://images/assets/chooselinux_1920x1080.jpg",
+            "url" : "http://201406.jb-dl.cdn.scaleengine.net/chooselinux/2019/cl-005.mp4",
+            "streamFormat" : "mp4",
+            "subtitleTracks" : [],
+            "uniqueProperties" : {
+                "itemDisplayMode" : "episode"
+            }
+        },
+        "chooselinux2" : {
+            "containerType" : "video",
+            "title" : "Fedora Challenge And NextCloudPi | Choose Linux 4",
+            "shortTitle" : "Choose Linux 4",
+            "description" : "The distro challenges roll on with Fedora Workstation. Jason shares his thoughts on getting it up and running, feeling at home with vanilla Gnome, and why Fedora may be perfect place for his Magic the Gathering addiction. Plus, the Raspberry Pi journey continues with NextCloudPi. Is creating a DropBox substitute really this easy?",
+            "shortDescription" : "Choose Linux 4!",
+            "releaseDate" : "March 7, 2019",
+            "hdPosterUrl" : "https://www.jupiterbroadcasting.com/wp-content/uploads/2019/01/choose-linux-yt-thumb-cf-300x169.jpg",
+            "hdBackgroundImageUrl" : "pkg://images/assets/chooselinux_1920x1080.jpg",
+            "url" : "http://201406.jb-dl.cdn.scaleengine.net/chooselinux/2019/cl-004.mp4",
+            "streamFormat" : "mp4",
+            "subtitleTracks" : [],
+            "uniqueProperties" : {
+                "itemDisplayMode" : "episode"
+            }
+        },
+        "bsdnowaudio1" : {
+            "containerType" : "audio",
+            "title" : "Timestamped Notes | BSD Now 290",
+            "shortTitle" : "BSD Now 290",
+            "description" : "FreeBSD on Cavium ThunderX, looking at NetBSD as an OpenBSD user, taking time-stamped notes in vim, OpenBSD 6.5 has been tagged, FreeBSD and NetBSD in GSoC 2019, SecBSD: an UNIX-like OS for Hackers, and more.",
+            "shortDescription" : "BSD Now 290!",
+            "releaseDate" : " March 21, 2019",
+            "hdPosterUrl" : "pkg://images/assets/bsdnow_375x375.png",
+            "hdBackgroundImageUrl" : "pkg://images/assets/bsdnow_1920x1080.jpg",
+            "url" : "https://media.fireside.fm/file/fireside-audio/podcasts/audio/c/c91b88f1-e824-4815-bcb8-5227818d6010/episodes/7/75bc6dda-ec5d-45fe-adf3-2afde9a7f099/75bc6dda-ec5d-45fe-adf3-2afde9a7f099.mp3",
+            "streamFormat" : "mp3",
+            "uniqueProperties" : {
+                "playbarColor" : "0xed0b0bff"
+            }
+        },
+        "bsdnowaudio2" : {
+            "containerType" : "audio",
+            "title" : "Microkernel Failure | BSD Now 289",
+            "shortTitle" : "BSD Now 289",
+            "description" : "A kernel of failure, IPv6 fragmentation vulnerability in OpenBSD’s pf, a guide to the terminal, using a Yubikey for SSH public key authentication, FreeBSD desktop series, and more.",
+            "shortDescription" : "BSD Now 289!",
+            "releaseDate" : "March 14, 2019",
+            "hdPosterUrl" : "pkg://images/assets/bsdnow_375x375.png",
+            "hdBackgroundImageUrl" : "pkg://images/assets/bsdnow_1920x1080.jpg",
+            "url" : "https://media.fireside.fm/file/fireside-audio/podcasts/audio/c/c91b88f1-e824-4815-bcb8-5227818d6010/episodes/e/eb6d59df-4b39-453b-93ca-18a6934e4e16/eb6d59df-4b39-453b-93ca-18a6934e4e16.mp3",
+            "streamFormat" : "mp3",
+            "extrainfo" : {
+                "hosts" : [
+                    "allanjude",
+                    "benedictreuschling"
+                ],
+                "guests" : [
+                    "chrisfisher"
+                ]
+            },
+            "uniqueProperties" : {
+                "itemDisplayMode" : "episode",
+                "playbarColor" : "0xed0b0bff"
+            }
+        },
+        "bsdnowaudio3" : {
+            "containerType" : "audio",
+            "title" : "Turing Complete Sed | BSD Now 288",
+            "shortTitle" : "BSD Now 288",
+            "description" : "Software will never fix Spectre-type bugs, a proof that sed is Turing complete, managed jails using Bastille, new version of netdata, using grep with /dev/null, using GMail with mutt, and more.",
+            "shortDescription" : "BSD Now 288!",
+            "releaseDate" : "March 7, 2019",
+            "hdPosterUrl" : "pkg://images/assets/bsdnow_375x375.png",
+            "hdBackgroundImageUrl" : "pkg://images/assets/bsdnow_1920x1080.jpg",
+            "url" : "https://media.fireside.fm/file/fireside-audio/podcasts/audio/c/c91b88f1-e824-4815-bcb8-5227818d6010/episodes/b/be2ff33e-e797-4fb6-9448-c715d7068e66/be2ff33e-e797-4fb6-9448-c715d7068e66.mp3",
+            "streamFormat" : "mp3",
+            "uniqueProperties" : {
+                "itemDisplayMode" : "episode",
+                "playbarColor" : "0xed0b0bff"
+            }
+        },
+        "chooselinuxaudio1" : {
+            "containerType" : "audio",
+            "title" : "Linux Gaming Report and Purism Librem 15 | Choose Linux 5",
+            "shortTitle" : "Choose Linux 5",
+            "description" : "Jason goes deeper down the rabbit hole by exploring the state of Steam gaming on 9 different Linux distributions. Find out how Fedora compares to Pop!_OS. Plus, first impressions of Purism’s brand new Librem 15 v4 laptop.",
+            "shortDescription" : "Choose Linux 5!",
+            "releaseDate" : "March 21, 2019",
+            "hdPosterUrl" : "pkg://images/assets/chooselinux_375x375.png",
+            "hdBackgroundImageUrl" : "pkg://images/assets/chooselinux_1920x1080.jpg",
+            "url" : "https://media.fireside.fm/file/fireside-audio/podcasts/audio/b/bcfa14da-33ad-4749-b1a9-4b668e7aa8c7/episodes/4/4c1d161b-c33f-48bc-b1ee-57283c4ec3f6/4c1d161b-c33f-48bc-b1ee-57283c4ec3f6.mp3",
+            "streamFormat" : "mp3",
+            "uniqueProperties" : {
+                "itemDisplayMode" : "episode",
+                "playbarColor" : "0x41e510ff"
+            }
+        }
+    },
+    "people" : {
+        "chrisfisher" : {
+            "containerType" : "person",
+            "name" : "Chris Fisher",
+            "portraitUrl" : "pkg://images/assets/chrisfisher.png",
+            "bio"  : "Host and owner of Jupiter Broadcasting, with the best shows on Linux, Security, Privacy, Community, Development, News and Politics. Everyday's a holiday!"
+        },
+        "allanjude" : {
+            "containerType" : "person",
+            "name" : "Allan Jude",
+            "portraitUrl" : "pkg://images/assets/allanjude.png",
+            "bio"  : "FreeBSD Developer, ZFS Expert, Co-Founder of @KlaraSystems, Host of BSD Now (former host of https://techsnap.systems/)"
+        },
+        "benedictreuschling" : {
+            "containerType" : "person",
+            "name" : "Benedict Reuschling",
+            "portraitUrl" : "pkg://images/assets/benedictreuschling.png",
+            "bio"  : "Big Data Cluster Admin, FreeBSD Committer, Vice President @freebsdfndation, Co-Host @bsdnow, but most of all: human. Things I see, do, and think about."
+        }
+    }
+}
