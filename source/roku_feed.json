@@ -429,6 +429,12 @@
             "name" : "Benedict Reuschling",
             "portraitUrl" : "pkg://images/assets/benedictreuschling.png",
             "bio"  : "Big Data Cluster Admin, FreeBSD Committer, Vice President @freebsdfndation, Co-Host @bsdnow, but most of all: human. Things I see, do, and think about."
+        },
+        "jasonevangelho" : {
+            "containerType" : "person",
+            "name" : "Jason Evangelho",
+            "portraitUrl" : "pkg://images/assets/jasonevangelho.png",
+            "bio"  : "As someone who created one of the first 30 podcasts in the world, I've always been passionate about them. Combining my love of Linux with this medium is a dream come true. In addition to hearing about my latest Linux discoveries here, you can find me at Forbes, where I've been covering PC gaming and consumer tech since 2012. Plus, check out my website devoted to Linux at https://ditchwindows.com"
         }
     }
 }
