@@ -239,7 +239,7 @@ Function secondsToMinutes(seconds as integer) as String 'toString method to conv
     return result
 end Function
 
-
+' Content change handler
 sub OnContentChange()
   setScreenContent()
 end sub

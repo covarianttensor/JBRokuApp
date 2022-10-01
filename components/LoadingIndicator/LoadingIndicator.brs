@@ -244,6 +244,7 @@ sub startAnimation()
   m.model = createObject("roDeviceInfo").getModel()
   'Get the first character of the model number. Anything less than a 4 corresponds to a device not suited to animations.
   first = Left(m.model, 1).trim()
+  ? "Model: " + first
   if first <> invalid and first.Len() = 1
     firstAsInt = val(first, 10)
     if (firstAsInt) > 3

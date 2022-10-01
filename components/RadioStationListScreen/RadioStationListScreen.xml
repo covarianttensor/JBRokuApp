@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Copyright 2016 Roku Corp.  All Rights Reserved. -->
+
+<component name="RadioStationListScreen" extends="Group" initialFocus="RadioStationPicker">
+	<!-- Load Scripts -->
+	<script type ="text/brightscript" uri = "pkg:/components/RadioStationListScreen/RadioStationListScreen.brs"/>
+
+	<!-- Load interfaces -->
+	<interface>
+		<field id = "listContent" type = "node" alias = "RadioStationPicker.content"/>
+		<!-- Content fields -->
+        <field id="content" type="node" alwaysnotify="true" onChange="OnContentChange" />
+	</interface>
+
+	<children>
+
+		<Timer
+			id = "CurrentTrackInfoUpdateTimer"
+			repeat = "true"
+			duration = "10"
+		/>
+
+		<Timer
+			id = "BackgroundArtTimer"
+			repeat = "true"
+			duration = "20"
+		/>
+
+		<!-- Background -->
+
+		<Group
+			id = "Artwork"
+		>
+			<!-- Set in brs file -->
+			<Poster
+				id = "Background"
+				width = "1920"
+				height = "1080"
+				loadDisplayMode = "scaleToFill"
+				loadWidth = "6"
+				loadHeight = "6"
+				loadSync = "true"
+			/>
+					<!-- Set URI in brs to Podcast Cover-->
+			<Poster
+				id = "RadioStationArt"
+				height = "500"
+				width = "500"
+				opacity = "0"
+				translation = "[100, 55]"
+				loadSync = "true">
+				<Rectangle
+					id = "RadioStationRect"
+					width = "500"
+					height = "40"
+					color = "0x000000FF"
+					opacity = "0"
+					translation = "[0,460]"
+				>
+					<Label
+						id = "RadioStationPlaying"
+						width = "445"
+						height = "45"
+						color = "0xFFFFFFFF"
+						translation = "[0,5]"
+					/>
+					<Label
+						id = "CurrentlyPlaying"
+						width = "450"
+						height = "95"
+						color = "0xFFFFFFFF"
+						text = "0"
+						translation = "[450,0]">
+						<Font
+							id = "Sosa-Regular"
+							role = "font"
+							uri = "pkg:/components/fonts/sosa-regular-webfont.ttf"
+							size = "36"/>
+					</Label>
+				</Rectangle>
+			</Poster>
+		</Group>
+
+		<Animation
+			id="fadeinAnimation"
+			repeat="false"
+			duration="0.3">
+			<FloatFieldInterpolator
+				id="backgroundInterpolator"
+				key="[0.0, 1.0]"
+				keyValue="[0.0, 1.0]"
+				fieldToInterp="Background.opacity"/>
+		</Animation>
+
+		<Animation
+			id="fadeoutAnimation"
+			repeat="false"
+			duration="0.3">
+			<FloatFieldInterpolator
+				id="backgroundInterpolator"
+				key="[0.0, 1.0]"
+				keyValue="[1.0, 0.0]"
+				fieldToInterp="Background.opacity"/>
+		</Animation>
+
+		<Poster
+			id = "NetworkLogo"
+			height = "200"
+			width = "300"
+			opacity = ".7"
+			translation = "[1575, 55]"
+			loadSync = "true">
+		</Poster>
+
+		<Rectangle
+			id = "RadioStationPickerBackground"
+			width = "870"
+			height = "640"
+			color = "0x000000FF"
+			opacity = ".7"
+			translation = "[650,210]">
+
+			<LabelList
+				id = "RadioStationPicker"
+				translation = "[35,10]"
+				itemSize = "[800,60]"
+				numRows = "10"
+				color = "0xFFFFFFFF">
+				<ContentNode
+				id = "LabelListContent"
+				role = "content"
+				>
+				</ContentNode>
+			</LabelList>
+		</Rectangle>
+
+		<!-- Translation in Group field to account for safety zones. Can be removed if testing on TV without safety zones -->
+		<Group
+			translation = "[0,-30]">
+			<Rectangle
+				id = "PlayBar"
+				height = "200"
+				width = "1920"
+				color = "0x000000FF"
+				opacity = "0"
+				translation = "[0,930]">
+				<Poster
+					id = "CurrentAlbumArt"
+					height = "150"
+					width = "150"
+					loadWidth = "640"
+					loadHeight = "360"
+					translation = "[42,0]"
+				/>
+				<Label
+					id = "CurrentSongName"
+					color = "0xFFFFFFFF"
+					width = "1500"
+					height = "60"
+					translation = "[225,20]"
+				> <Font
+					role = "font"
+					uri = "pkg:/components/fonts/avenirltstd-light-webfont.ttf"
+					id = "avenir-light"
+					size = "56"
+				/>
+				</Label>
+				<Label
+					id = "CurrentArtistName"
+					color = "0xFFFFFFFF"
+					width = "1500"
+					height = "40"
+					translation = "[225,100]"
+				> <Font
+					role = "font"
+					uri = "pkg:/components/fonts/avenirltstd-light-webfont.ttf"
+					id = "avenir-light"
+					size = "36"
+				/>
+				</Label>
+				<Label
+					id = "Play"
+					color = "0xFFFFFFFF"
+					width = "150"
+					height = "150"
+					text = "N"
+					translation = "[1750,20]">
+					<Font
+						id = "Sosa-Regular"
+						role = "font"
+						uri = "pkg:/components/fonts/sosa-regular-webfont.ttf"
+						size = "100"/>
+				</Label>
+			</Rectangle>
+		</Group>
+
+		<Group>
+			<Rectangle
+				id = "TitleBackground"
+				width = "590"
+				height = "100"
+				color = "0x000000FF"
+				opacity = ".7"
+				translation = "[647,55]">
+
+				<!-- Set Text in brs to Podcast Title-->
+				<Label
+					id = "Title"
+					color = "0xFFFFFFFF"
+					width = "530"
+					height = "60"
+					translation = "[30,15]"
+					>
+					<Font
+						role = "font"
+						uri = "pkg:/components/fonts/avenirltstd-light-webfont.ttf"
+						id = "avenir-light"
+						size = "64"
+					/>
+				</Label>
+			</Rectangle>
+		</Group>
+
+		<!-- Set to Text to summary -->
+		<Rectangle
+			id = "SummaryBackground"
+			width = "500"
+			height = "275"
+			color = "0x000000FF"
+			opacity = "0"
+			translation = "[100,575]">
+
+			<!-- Set Text in brs to Summary Title-->
+			<Label
+				id = "StationSummary"
+				color = "0xFFFFFFFF"
+				width = "470"
+				height = "260"
+				wrap = "true"
+				translation = "[15,10]"
+				>
+				<Font
+					role = "font"
+					uri = "pkg:/components/fonts/avenirltstd-light-webfont.ttf"
+					id = "avenir-light"
+					size = "34"
+				/>
+			</Label>
+		</Rectangle>
+		<!-- Append Episodes for LabelListContent -->
+
+		<!-- The spinning wheel for when content is loading -->
+		<LoadingIndicator
+		id="LoadingIndicator"
+		imageUri="pkg:/components/LoadingIndicator/loader.png"
+		clockwise="true"
+		spinInterval="4"
+		fadeInterval="0.5"
+		spacing="20"
+		imageWidth="100"
+		text="Loading Radio Stations..."
+		width="1920"
+		height="1080"
+		centered="false"
+		translation="[0, 0]"
+		textPadding="10"
+		font="font:SmallBoldSystemFont"
+		backgroundColor="0x5A5A5A"
+		backgroundOpacity="0.8"/>
+
+	</children>
+
+</component>

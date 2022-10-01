@@ -72,7 +72,8 @@
             "title" : "Most Recent",
             "group" : [
                 { "organizationType" : "content", "id" : "bsdnow3"},
-                { "organizationType" : "content", "id" : "chooselinux2"}
+                { "organizationType" : "content", "id" : "chooselinux2"},
+                { "organizationType" : "content", "id" : "radiolist1"}
             ],
             "uniqueProperties" : {}
         },
@@ -183,6 +184,19 @@
             "message" : "So excited to announce @ChooseLinux a show that captures the excitement of switching to Linux.",
             "uniqueProperties" : {}
         },
+        "radiolist1" : {
+            "containerType" : "radiostationlist",
+            "title" : "Radiostorm.com Stations",
+            "shortTitle" : "Radiostorm",
+            "description" : "Listen to Radiostorm stations LIVE!",
+            "shortDescription" : "Listen LIVE!",
+            "hdPosterUrl" : "pkg://images/app/splash_hd.png",
+            "hdBackgroundImageUrl" : "pkg://images/app/splash_fhd.png",
+            "shouldDefaultToLocalConfig" : true,
+            "stationListConfig_local" : "pkg://source/station_config.json",
+            "stationListConfig_remote" : "pkg://source/station_config.json",
+            "uniqueProperties" : {}
+        },
         "livevideo1" : {
             "containerType" : "videostream",
             "title" : "Jupiter Broadcasting LIVE!",
@@ -192,6 +206,24 @@
             "hdPosterUrl" : "pkg://images/assets/LiveVideo_375x375.png",
             "hdBackgroundImageUrl" : "pkg://images/assets/Solid_2a2a2a_1920x1080.png",
             "url" : "http://jupiter-hls.secdn.net/jupiter-channel/play/jupiter.smil/playlist.m3u8",
+            "streamFormat" : "hls",
+            "extrainfo" : {
+                "altHdPosterUrl" : "https://www.jupiterbroadcasting.com/wp-content/themes/jb2014/images/logo.png",
+                "altHdBackgroundImageUrl" : "pkg://images/assets/Solid_2a2a2a_1920x1080.png"
+            },
+            "uniqueProperties" : {
+                "itemDisplayMode" : "icon"
+            }
+        },
+        "livevideo2" : {
+            "containerType" : "videostream",
+            "title" : "A Test Stream",
+            "shortTitle" : "Test Stream",
+            "description" : "A test stream",
+            "shortDescription" : "A test stream.",
+            "hdPosterUrl" : "pkg://images/assets/LiveVideo_375x375.png",
+            "hdBackgroundImageUrl" : "pkg://images/assets/Solid_2a2a2a_1920x1080.png",
+            "url" : "rtmp://stream.noire.tv:1935/live/95aba864-d7c8-4e23-b932-5cf6ccb80ee7",
             "streamFormat" : "hls",
             "extrainfo" : {
                 "altHdPosterUrl" : "https://www.jupiterbroadcasting.com/wp-content/themes/jb2014/images/logo.png",

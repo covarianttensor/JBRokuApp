@@ -1,0 +1,91 @@
+{
+    "station": [
+      {
+        "station_name" : "At Work",
+        "station_list_text" : "At Work 104",
+        "description" : "Your All Day Office Music Station!",
+        "station_art_url" : "pkg:/images/radio_stations/station/AtWork104.png",
+        "stream_pls_url" : "http://www.star104.net/stream/atwork-mp3.pls",
+        "stream_type" : "mp3",
+        "metadata_url" : "https://api.live365.com/v1/station/b30572",
+        "metadata_extraction_method" : "live365",
+        "background_art_display_mode" : "album"
+      },
+      {
+        "station_name" : "Classic Rock",
+        "station_list_text" : "Rock 104 Classic",
+        "description" : "Radiostorm Classic Rock is an internet radio station from Topeka, KS, United States, providing classic rock music.",
+        "station_art_url" : "pkg:/images/radio_stations/station/Rock104ClassicRock.png",
+        "stream_pls_url" : "http://www.star104.net/stream/classicrock-mp3.pls",
+        "stream_type" : "mp3",
+        "metadata_url" : "https://api.live365.com/v1/station/b47785",
+        "metadata_extraction_method" : "live365",
+        "background_art_display_mode" : "album"
+      },
+      {
+        "station_name" : "Comedy",
+        "station_list_text" : "Comedy 104",
+        "description" : "Warning, this station contains bad language!",
+        "station_art_url" : "pkg:/images/radio_stations/station/Comedy104.png",
+        "stream_pls_url" : "http://www.star104.net/stream/comedy-mp3.pls",
+        "stream_type" : "mp3",
+        "metadata_url" : "https://api.live365.com/v1/station/b42761",
+        "metadata_extraction_method" : "live365",
+        "background_art_display_mode" : "album"
+      },
+      {
+        "station_name" : "Oldies",
+        "station_list_text" : "Oldies 104",
+        "description" : "Evergreens for everybody! Can't get enough of Oldies? Listen to Marshall Barber's Rockhouse show every Thursday at 6 PM CST",
+        "station_art_url" : "pkg:/images/radio_stations/station/Oldies104.png",
+        "stream_pls_url" : "http://www.star104.net/stream/oldies-mp3.pls",
+        "stream_type" : "mp3",
+        "metadata_url" : "https://api.live365.com/v1/station/b09584",
+        "metadata_extraction_method" : "live365",
+        "background_art_display_mode" : "gradients"
+      },
+      {
+        "station_name" : "Classic R&B",
+        "station_list_text" : "Classic R&B",
+        "description" : "Classic R&B is an internet radio station from Topeka, KS, United States, playing smooth classic R&B.",
+        "station_art_url" : "pkg:/images/radio_stations/station/TheJamz.png",
+        "stream_pls_url" : "http://www.star104.net/stream/jamz104.pls",
+        "stream_type" : "mp3",
+        "metadata_url" : "",
+        "metadata_extraction_method" : "",
+        "background_art_display_mode" : "gradients"
+      },
+      {
+        "station_name" : "The 80s Channel",
+        "station_list_text" : "The 80s Channel",
+        "description" : "The 80s Channel is an internet radio station from Topeka, KS, United States, providing 80's music.",
+        "station_art_url" : "pkg:/images/radio_stations/station/The80sChannel.png",
+        "stream_pls_url" : "http://www.star104.net/stream/80s-mp3.pls",
+        "stream_type" : "mp3",
+        "metadata_url" : "",
+        "metadata_extraction_method" : "",
+        "background_art_display_mode" : "gradients"
+      },
+      {
+        "station_name" : "Country",
+        "station_list_text" : "Country 104",
+        "description" : "Country is an internet radio station from Topeka, KS, United States, providing country music.",
+        "station_art_url" : "pkg:/images/radio_stations/station/Country104.png",
+        "stream_pls_url" : "http://www.star104.net/stream/country.pls",
+        "stream_type" : "aac",
+        "metadata_url" : "",
+        "metadata_extraction_method" : "",
+        "background_art_display_mode" : "gradients"
+      },
+      {
+        "station_name" : "Christmas",
+        "station_list_text" : "The Christmas Channel",
+        "description" : "Your Holiday Favorites!  This channel is only active in November and December",
+        "stream_pls_url" : "http://www.radiostorm.com/christmas.pls",
+        "stream_type" : "aac",
+        "metadata_url" : "",
+        "metadata_extraction_method" : "",
+        "background_art_display_mode" : "gradients"
+      }
+    ]
+}

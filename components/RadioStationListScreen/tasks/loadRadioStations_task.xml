@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name = "loadRadioStations_task" extends = "task" >
+  <interface>
+    <field id = "shouldDefaultToLocalConfig" type = "bool" />
+    <field id = "stationListConfig_local" type = "string" />
+    <field id = "stationListConfig_remote" type = "string" />
+    <field id = "radioStationListNode" type = "node" />
+  </interface>
+  <script type="text/brightscript" uri="pkg:/components/RadioStationListScreen/tasks/loadRadioStations_task.brs"/>
+</component>

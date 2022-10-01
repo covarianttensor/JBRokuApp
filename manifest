@@ -1,27 +1,37 @@
 #
-#  Copyright (c) 2016 Roku, Inc. All rights reserved.
+#  Copyright (c) 2019-2021 Oscar Cerna-Mandujano
 #  Roku Channel Manifest File
 #  Full spec at bit.ly/roku-manifest-file
 #
 
 # Channel Details
-title=HeroGridChannel
-subtitle=Roku Sample Channel App
+title=Radiostorm.com Internet Radio
 major_version=1
-minor_version=1
-build_version=1
+minor_version=3
+build_version=0
 
 # Channel Assets
-mm_icon_focus_sd=pkg:/images/channel-poster_sd.png
-mm_icon_focus_hd=pkg:/images/channel-poster_hd.png
-mm_icon_focus_fhd=pkg:/images/channel-poster_fhd.png
+mm_icon_focus_fhd=pkg:/images/app/channel_logo_fhd.png
+mm_icon_focus_hd=pkg:/images/app/channel_logo_hd.png
+mm_icon_focus_sd=pkg:/images/app/channel_logo_sd.png
+mm_icon_side_fhd=pkg:/images/app/channel_logo_fhd.png
+mm_icon_side_hd=pkg:/images/app/channel_logo_hd.png
+mm_icon_side_sd=pkg:/images/app/channel_logo_sd.png
 
-# Splash Screen + Loading Screen Artwork
-splash_screen_sd=pkg:/images/splash-screen_sd.jpg
-splash_screen_hd=pkg:/images/splash-screen_hd.jpg
-splash_screen_fhd=pkg:/images/splash-screen_fhd.jpg
-splash_color=#808080
+###  Splash Screen + Loading Screen Artwork
+#### Image sizes are splash_screen_fhd: 1920x1080px | splash_screen_hd: 1280x720px | splash_screen_sd: 720x480px
+splash_screen_fhd=pkg:/images/app/splash_fhd.png
+splash_screen_hd=pkg:/images/app/splash_hd.png
+splash_screen_sd=pkg:/images/app/splash_sd.png
+splash_color=#121212
 splash_min_time=0
 
-# Resolution
+# Resolution (Tells Roku our app is designed for 1080p)
 ui_resolutions=fhd
+
+# Get rid of black screen flash when app starts
+splash_rsg_optimization=1
+
+# Tells Roku our app can handle roInput events.
+## Needed to handle deep link request while our app is running.
+supports_input_launch=1

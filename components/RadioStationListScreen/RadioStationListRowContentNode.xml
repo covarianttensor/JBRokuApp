@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component  name = "RadioStationListRowContentNode" extends = "ContentNode" >
+
+  <interface >
+    <field id = "station_name" type = "string" />
+    <field id = "station_art_url" type = "string" />
+    <field id = "metadata_extraction_method" type = "string" />
+    <field id = "metadata_url" type = "string" />
+    <field id = "background_art_display_mode" type = "string" />
+  </interface>
+
+</component>

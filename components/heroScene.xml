@@ -42,6 +42,10 @@
       id="PodcastScreen"
       visible="false" />
 
+    <RadioStationListScreen
+      id="RadioStationListScreen"
+      visible="false" />
+
     <!-- ShowList screen with play button -->
     <LibraryScreen
       id="LibraryScreen"

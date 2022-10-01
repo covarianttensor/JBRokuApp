@@ -21,6 +21,8 @@ sub init()
   m.AudioStreamDetailsScreen = m.top.FindNode("AudioStreamDetailsScreen")
   ' PodcastScreen Node for displaying collection of AUDIO content nodes
   m.PodcastScreen = m.top.FindNode("PodcastScreen")
+  ' RadioStationListScreen Node for displaying a list of radio stations.
+  m.RadioStationListScreen = m.top.FindNode("RadioStationListScreen")
   ' LibraryScreen Node for displaying collection of compilation nodes
   m.LibraryScreen = m.top.FindNode("LibraryScreen")
   ' The spinning wheel node
@@ -138,6 +140,13 @@ sub showContainer(containerNode as object)
       m.PodcastScreen.setFocus(true)
       m.PodcastScreen.visible = "true"
       m.MenuNavigationHistory.push(containerNode) ' Add node to container navigation history
+    else if containerNode.containerType = "radiostationlist"
+      m.FadeIn.control = "start"
+      hideAllScreens()
+      m.RadioStationListScreen.content = containerNode
+      m.RadioStationListScreen.setFocus(true)
+      m.RadioStationListScreen.visible = "true"
+      m.MenuNavigationHistory.push(containerNode) ' Add node to container navigation history
     else if containerNode.containerType = "library"
       m.FadeIn.control = "start"
       hideAllScreens()
@@ -158,6 +167,7 @@ sub hideAllScreens()
   m.AudioDetailsScreen.visible = "false"
   m.AudioStreamDetailsScreen.visible = "false"
   m.PodcastScreen.visible = "false"
+  m.RadioStationListScreen.visible = "false"
   m.LibraryScreen.visible = "false"
 end sub
 
@@ -192,6 +202,10 @@ sub showPreviousContainer()
         hideAllScreens()
         m.PodcastScreen.visible = "true"
         m.PodcastScreen.setFocus(true)
+      else if ccNode.containerNode = "radiostationlist"
+        hideAllScreens()
+        m.RadioStationListScreen.visible = "true"
+        m.RadioStationListScreen.setFocus(true)
       else if ccNode.containerNode = "library"
         hideAllScreens()
         m.LibraryScreen.visible = "true"
@@ -256,6 +270,12 @@ sub showPreviousContainer()
         hideAllScreens()
         m.PodcastScreen.setFocus(true)
         m.PodcastScreen.visible = "true"
+      else if previousContainerNode.containerType = "radiostationlist"
+        m.FadeOut.control = "start"
+        m.RadioStationListScreen.content = previousContainerNode
+        hideAllScreens()
+        m.RadioStationListScreen.setFocus(true)
+        m.RadioStationListScreen.visible = "true"
       else if previousContainerNode.containerType = "library"
         m.FadeOut.control = "start"
         m.LibraryScreen.content = previousContainerNode
