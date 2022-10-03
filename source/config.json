@@ -1,5 +1,5 @@
 {
-    "shouldReadLocalFeed" : true,
+    "shouldReadLocalFeed" : false,
     "localFeedUri" : "pkg:/source/roku_feed.json",
-    "remoteFeedUri" : "https://jbarchives.github.io/feeds/roku/main.json"
+    "remoteFeedUri" : "https://jbfeeds.raitotomoshimas.repl.co/roku/main"
 }
