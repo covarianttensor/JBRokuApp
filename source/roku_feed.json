@@ -10,7 +10,8 @@
             "title" : "Current Shows",
             "group" : [
                 { "organizationType" : "compilations", "id" : "bsdnow"},
-                { "organizationType" : "compilations", "id" : "chooselinux"}
+                { "organizationType" : "compilations", "id" : "chooselinux"},
+                { "organizationType" : "compilations", "id" : "office-hours"}
             ],
             "uniqueProperties" : {}
         },
@@ -19,6 +20,13 @@
             "group" : [
                 { "organizationType" : "compilations", "id" : "bsdnowaudio"},
                 { "organizationType" : "compilations", "id" : "chooselinuxaudio"}
+            ],
+            "uniqueProperties" : {}
+        },
+        "office-hours-show" : {
+            "title" : "Office Hours",
+            "group":[
+                { "organizationType" : "content", "id" : "office-hours-1"}
             ],
             "uniqueProperties" : {}
         },
@@ -60,6 +68,7 @@
         "featuredrow" : {
             "title" : "Featured",
             "group" : [
+                { "organizationType" : "content", "id" : "livevideo1"},
                 { "organizationType" : "content", "id" : "bsdnow1"},
                 { "organizationType" : "content", "id" : "chooselinux1"},
                 { "organizationType" : "content", "id" : "bsdnow2"}
@@ -122,6 +131,18 @@
         }
     },
     "compilations" : {
+        "office-hours" : {
+            "containerType" : "videoshow",
+            "title" : "Office Hourse",
+            "description" : "A podcast for the community of Jupiter Broadcasting, the Open Source media powerhouse of the Internet. Get the inside scope on our projects, the future of independent media, and decentralized community.",
+            "firstAired" : "2022-04-15",
+            "hdPosterUrl" : "https://jbarchives.github.io/shows/video/office-hours/assets/roku/office-hours_375x375.jpg",
+            "hdBackgroundImageUrl" : "https://jbarchives.github.io/shows/video/office-hours/assets/roku/office-hours_1920x1080.jpg",
+            "collectionId" : "office-hours-show",
+            "uniqueProperties" : {
+                "itemDisplayMode" : "show"
+            }
+        },
         "bsdnow" : {
             "containerType" : "videoshow",
             "title" : "BSD Now",
@@ -204,8 +225,8 @@
             "description" : "Watch Jupiter Broadcasting LIVE!",
             "shortDescription" : "Watch LIVE!",
             "hdPosterUrl" : "pkg://images/assets/LiveVideo_375x375.png",
-            "hdBackgroundImageUrl" : "pkg://images/assets/Solid_2a2a2a_1920x1080.png",
-            "url" : "http://jupiter-hls.secdn.net/jupiter-channel/play/jupiter.smil/playlist.m3u8",
+            "hdBackgroundImageUrl" : "https://jupiter.tube/lazy-static/previews/90064313-e53d-4b5e-a5ca-6c1e685c7b2e.jpg",
+            "url" : "https://jupiter.tube/static/streaming-playlists/hls/80dd53c2-f6d5-46cb-861b-ab769ae07dc0/f7397797-a713-47bb-9411-b57955a0465a-master.m3u8",
             "streamFormat" : "hls",
             "extrainfo" : {
                 "altHdPosterUrl" : "https://www.jupiterbroadcasting.com/wp-content/themes/jb2014/images/logo.png",
@@ -285,6 +306,30 @@
                 "screenshotUrl" : "pkg://images/assets/sc.png"
             },
             "uniqueProperties" : {}
+        },
+        "office-hours-1" : {
+            "containerType" : "video",
+            "title" : "The Enthusiast Trap | Office Hours 1",
+            "shortTitle" : "Office Hours 1",
+            "description" : "What is the enthusiast trap, and why does it seem to ensnarl every successful open source project? Also, some excellent listener power user tips for NextCloud.",
+            "shortDescription" : "BSD Now 290!",
+            "releaseDate" : " April 15, 2022",
+            "hdPosterUrl" : "https://jbarchives.github.io/shows/video/office-hours/episode/1/assets/roku/office-hours-1_300x178.jpg",
+            "hdBackgroundImageUrl" : "https://jbarchives.github.io/shows/video/office-hours/assets/roku/office-hours_1920x1080.jpg",
+            "url" : "https://archive.org/download/office-hours-1/Office-Hours-1.mp4",
+            "streamFormat" : "mp4",
+            "extrainfo" : {
+                "hosts" : [
+                    "chrisfisher"
+                ],
+                "guests" : [
+                    
+                ],
+                "screenshotUrl" : "https://nextcloud.com/wp-content/uploads/2022/04/mobileDesktop-4.png"
+            },
+            "uniqueProperties" : {
+                "itemDisplayMode" : "episode"
+            }
         },
         "bsdnow2" : {
             "containerType" : "video",
